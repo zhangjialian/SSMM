@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/bin/compile-all.bat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-common" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserBO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserDO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserQO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserVO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/util/DateUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-core" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-manager" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/impl/TestManagerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/impl/UserManagerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/task/ThreadPoolExecutorHandle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-monitor" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-monitor/src/main/java/com/zjl/monitor/interceptor/AdminInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-service" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-test" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0121.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0127.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-web" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/TestController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/UserController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test.sql" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven.iml" filepath="$PROJECT_DIR$/ssm-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-common/ssm-maven-common.iml" filepath="$PROJECT_DIR$/ssm-maven-common/ssm-maven-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-core/ssm-maven-core.iml" filepath="$PROJECT_DIR$/ssm-maven-core/ssm-maven-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-manager/ssm-maven-manager.iml" filepath="$PROJECT_DIR$/ssm-maven-manager/ssm-maven-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-monitor/ssm-maven-monitor.iml" filepath="$PROJECT_DIR$/ssm-maven-monitor/ssm-maven-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-service/ssm-maven-service.iml" filepath="$PROJECT_DIR$/ssm-maven-service/ssm-maven-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-test/ssm-maven-test.iml" filepath="$PROJECT_DIR$/ssm-maven-test/ssm-maven-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-web/ssm-maven-web.iml" filepath="$PROJECT_DIR$/ssm-maven-web/ssm-maven-web.iml" />
+    </modules>
+  </component>
+</project>

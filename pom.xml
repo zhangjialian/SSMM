@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zjl</groupId>
+    <artifactId>ssm-maven</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ssm-maven-common</module>
+        <module>ssm-maven-core</module>
+        <module>ssm-maven-manager</module>
+        <module>ssm-maven-web</module>
+        <module>ssm-maven-test</module>
+        <module>ssm-maven-monitor</module>
+        <module>ssm-maven-service</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>GBK</project.build.sourceEncoding>
+        <junit-version>4.12</junit-version>
+        <project-version>1.0-SNAPSHOT</project-version>
+        <java.version>1.8</java.version>
+        <servlet-version>2.5</servlet-version>
+        <spring-version>4.0.1.RELEASE</spring-version>
+        <!--<spring-version>3.1.2.RELEASE</spring-version>-->
+        <spring-test-version>4.0.1.RELEASE</spring-test-version>
+        <spring-aop-version>1.7.4</spring-aop-version>
+        <jackson-version>2.5.2</jackson-version>
+        <fastjson-version>1.2.41</fastjson-version>
+        <mybatis-version>3.1.1</mybatis-version>
+        <mybatis-spring-version>1.1.1</mybatis-spring-version>
+        <mysql-version>5.1.21</mysql-version>
+        <c3p0-version>0.9.1.2</c3p0-version>
+        <log4j-version>1.2.17</log4j-version>
+        <slf4-log-version>1.7.5</slf4-log-version>
+        <jstl-version>1.2</jstl-version>
+        <poi-version>3.15</poi-version>
+        <dubbo-version>2.5.3</dubbo-version>
+        <zookeeper-version>3.3.1</zookeeper-version>
+        <zkclient-version>0.3</zkclient-version>
+        <redis-version>2.6.2</redis-version>
+        <!--<redis-version>2.1.0</redis-version>-->
+        <spring-redis-data-version>1.6.0.RELEASE</spring-redis-data-version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+</project>

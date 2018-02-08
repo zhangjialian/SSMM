@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ssm-maven-common" />
+        <module name="ssm-maven-core" />
+        <module name="ssm-maven-manager" />
+        <module name="ssm-maven-monitor" />
+        <module name="ssm-maven-service" />
+        <module name="ssm-maven-test" />
+        <module name="ssm-maven-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssm-maven" target="1.8" />
+      <module name="ssm-maven-common" target="1.8" />
+      <module name="ssm-maven-core" target="1.8" />
+      <module name="ssm-maven-manager" target="1.8" />
+      <module name="ssm-maven-monitor" target="1.8" />
+      <module name="ssm-maven-service" target="1.8" />
+      <module name="ssm-maven-test" target="1.8" />
+      <module name="ssm-maven-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
