@@ -1,26 +1,36 @@
 package com.zjl.test;
 
-import com.zjl.common.util.RedisUtil;
 import org.junit.Test;
 import org.springframework.data.redis.core.RedisTemplate;
 
 import javax.annotation.Resource;
-import java.io.Serializable;
 
 public class RedisTest extends BaseTest {
 
     @Resource
-    private RedisUtil redisUtil;
-
-    @Resource
-    private RedisTemplate<Serializable, Object> redisTemplate;
+    private RedisTemplate<String, Object> redisTemplate;
 
 
     @Test
     public void test(){
-
         System.out.println(redisTemplate);
+    }
 
+    @Test
+    public void insert(){
+        redisTemplate.opsForValue().set("username", "zhangjialian");
+        System.out.println("insert success");
+    }
+
+    @Test
+    public void get(){
+        Object obj = redisTemplate.opsForValue().get("username");
+        System.out.println(obj);
+    }
+
+    @Test
+    public void delete(){
+        // TODO: 2018/3/3
     }
 
 }
