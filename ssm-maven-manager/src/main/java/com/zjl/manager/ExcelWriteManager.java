@@ -10,7 +10,7 @@ import java.io.IOException;
 public interface ExcelWriteManager {
 
     /**
-     * 导出用户批量导入的Excel文件
+     * 瀵煎嚭鐢ㄦ埛鎵归噺瀵煎叆鐨凟xcel鏂囦欢
      * @param title
      * @return
      * @throws IOException

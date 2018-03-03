@@ -18,9 +18,9 @@ public class TradeCenterExcelHelp {
 	}
 
 	public static CellStyle getCellStyle(SXSSFWorkbook workbook, int type, boolean isNum) {
-		// Éú³ÉÒ»¸öÑùÊ½
+		// ç”Ÿæˆä¸€ä¸ªæ ·å¼
 		CellStyle style = workbook.createCellStyle();
-		// ÉèÖÃÑùÊ½
+		// è®¾ç½®æ ·å¼
 		style.setFillForegroundColor(HSSFColor.WHITE.index);
 		style.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);
 		style.setLeftBorderColor(HSSFColor.GREY_25_PERCENT.index);

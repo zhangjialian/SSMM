@@ -3,13 +3,13 @@ package com.zjl.manager;
 public interface TestManager {
 
     /**
-     * ²âÊÔÁ¬ĞøÁ½´ÎĞÂÔöµÄÇé¿öÏÂ£¬ËøµÄ×÷ÓÃ·¶Î§
+     * æµ‹è¯•è¿ç»­ä¸¤æ¬¡æ–°å¢çš„æƒ…å†µä¸‹ï¼Œé”çš„ä½œç”¨èŒƒå›´
      * @throws Exception
      */
     void testTransaction() throws Exception;
 
     /**
-     * ²âÊÔinsert
+     * æµ‹è¯•insert
      * @throws Exception
      */
     void insertTest() throws Exception;

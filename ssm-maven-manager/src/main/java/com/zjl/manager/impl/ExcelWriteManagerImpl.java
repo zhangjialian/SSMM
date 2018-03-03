@@ -34,12 +34,12 @@ public class ExcelWriteManagerImpl implements ExcelWriteManager {
             CELL_SIZE_20, DEFAULT_CELL_SIZE, DEFAULT_CELL_SIZE, };
 
     /**
-     * ·ÀÖ¹¶àÈËÍ¬ÊÂÏÂÔØ°ü¹üÁĞ±íµ¼ÖÂÄÚ´æÒç³ö
+     * é˜²æ­¢å¤šäººåŒäº‹ä¸‹è½½åŒ…è£¹åˆ—è¡¨å¯¼è‡´å†…å­˜æº¢å‡º
      */
     private Boolean inUse = false;
 
     /**
-     * µ¼³öÓÃ»§ÅúÁ¿µ¼ÈëµÄExcelÎÄ¼ş
+     * å¯¼å‡ºç”¨æˆ·æ‰¹é‡å¯¼å…¥çš„Excelæ–‡ä»¶
      * @param title
      * @return
      * @throws IOException
@@ -47,21 +47,21 @@ public class ExcelWriteManagerImpl implements ExcelWriteManager {
      */
     @Override
     public SXSSFWorkbook downloadUserExcel(String title) throws IOException, Exception {
-        String[] headers = {"ĞÕÃû(*)", "ÓÃ»§Ãû(*)", "ÓÊÏä(*)"};
+        String[] headers = {"å§“å(*)", "ç”¨æˆ·å(*)", "é‚®ç®±(*)"};
         return this.downloadExcelModelCommon(title, headers);
     }
 
     /**
-     * µ¼³öExcelÍ¨ÓÃÄ£°å
-     * @param title ±êÌâ
-     * @param headers ÁĞÃû
+     * å¯¼å‡ºExcelé€šç”¨æ¨¡æ¿
+     * @param title æ ‡é¢˜
+     * @param headers åˆ—å
      * @return
      * @throws IOException
      * @throws Exception
      */
     private SXSSFWorkbook downloadExcelModelCommon(String title, String[] headers) throws IOException, Exception {
         SXSSFWorkbook workbook = new SXSSFWorkbook();
-        // Ã¿¸öµ¥Ôª¸ñµÄ´óĞ¡
+        // æ¯ä¸ªå•å…ƒæ ¼çš„å¤§å°
 
         if(headers == null || headers.length == 0){
             return workbook;
@@ -69,35 +69,35 @@ public class ExcelWriteManagerImpl implements ExcelWriteManager {
 
         int listSize[] = new int[headers.length];
         for(int i = 0; i < listSize.length; i++){
-            //ÉèÖÃÄ¬ÈÏÁĞ¿í
+            //è®¾ç½®é»˜è®¤åˆ—å®½
             listSize[i] = DEFAULT_CELL_SIZE;
         }
 
         SXSSFSheet sheet = TradeCenterExcelHelp.getXSSFSheet(workbook, listSize, title);
 
-        // Éú³É±êÌâÑùÊ½
+        // ç”Ÿæˆæ ‡é¢˜æ ·å¼
         CellStyle titleStyle = TradeCenterExcelHelp.getCellStyle(workbook, TITLE, false);
-        // Éú³É±êÌâ×ÖÌå
+        // ç”Ÿæˆæ ‡é¢˜å­—ä½“
         Font titleFont = TradeCenterExcelHelp.getXSSFFont(workbook, 0, 0, 0);
-        // °Ñ×ÖÌåÓ¦ÓÃµ½µ±Ç°µÄÑùÊ½
+        // æŠŠå­—ä½“åº”ç”¨åˆ°å½“å‰çš„æ ·å¼
         titleStyle.setFont(titleFont);
 
-        // Éú³ÉÕıÎÄÑùÊ½
+        // ç”Ÿæˆæ­£æ–‡æ ·å¼
         CellStyle contextStyle = TradeCenterExcelHelp.getCellStyle(workbook, CONTEXT, false);
-        // Éú³ÉÕıÎÄ×ÖÌå
+        // ç”Ÿæˆæ­£æ–‡å­—ä½“
         Font contextFont = TradeCenterExcelHelp.getXSSFFont(workbook, 0, 0, XSSFFont.BOLDWEIGHT_NORMAL);
-        // °Ñ×ÖÌåÓ¦ÓÃµ½µ±Ç°µÄÑùÊ½
+        // æŠŠå­—ä½“åº”ç”¨åˆ°å½“å‰çš„æ ·å¼
         contextStyle.setFont(contextFont);
 
-        // Éú³É½éÉÜĞĞÑùÊ½
+        // ç”Ÿæˆä»‹ç»è¡Œæ ·å¼
         CellStyle introduceRowStyle = TradeCenterExcelHelp.getCellStyle(workbook, TITLE, false);
-        // Éú³É±êÌâ×ÖÌå
+        // ç”Ÿæˆæ ‡é¢˜å­—ä½“
         Font introduceRowFont = TradeCenterExcelHelp.getXSSFFont(workbook, 0, 0, 0);
-        // °Ñ×ÖÌåÓ¦ÓÃµ½µ±Ç°µÄÑùÊ½
+        // æŠŠå­—ä½“åº”ç”¨åˆ°å½“å‰çš„æ ·å¼
         introduceRowStyle.setFont(introduceRowFont);
-        // Ìî³ä±³¾°É«
+        // å¡«å……èƒŒæ™¯è‰²
         introduceRowStyle.setFillForegroundColor(HSSFColor.GREY_25_PERCENT.index);
-        // ×Ô¶¯»»ĞĞ
+        // è‡ªåŠ¨æ¢è¡Œ
         introduceRowStyle.setWrapText(true);
         introduceRowStyle.setAlignment(XSSFCellStyle.ALIGN_LEFT);
         introduceRowStyle.setBorderBottom(XSSFCellStyle.BORDER_NONE);

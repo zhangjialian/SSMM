@@ -1,25 +1,25 @@
 package com.zjl.common.systemEnum;
 
 /**
- * �����붨��
+ * 错误码定义
  * 
  * @author anling.xlj
  * 
  */
 public enum ErrorCodeEnum {
-	//ϵͳ����
-	P01("P01", "��������"),
+	//系统级别
+	P01("P01", "参数错误"),
 
-	//��¼
-	LG01("LG01", "�û�δ��¼"),
-	LG02("LG02", "userIdΪ0����¼ʧ��"),
-	LG03("LG03", "��¼ʧ�ܣ�����id�Ҳ�����Ӧ�û�"),
+	//登录
+	LG01("LG01", "用户未登录"),
+	LG02("LG02", "userId为0，登录失败"),
+	LG03("LG03", "登录失败，根据id找不到对应用户"),
 
-	//�û�
-	UR01("UR01", "�û����Ѵ��ڣ�����ʧ��"),
+	//用户
+	UR01("UR01", "用户名已存在，新增失败"),
 
-	//Excel�ļ�����
-	FI01("FI01", "excel��ȡ����")
+	//Excel文件导入
+	FI01("FI01", "excel读取出错")
 	;
 
 

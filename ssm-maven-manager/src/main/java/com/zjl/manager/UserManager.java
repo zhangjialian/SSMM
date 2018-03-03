@@ -14,7 +14,7 @@ import java.util.List;
 public interface UserManager {
 
     /**
-     * 获取用户列表
+     * 鑾峰彇鐢ㄦ埛鍒楄〃
      * @param query
      * @param pager
      * @return
@@ -22,7 +22,7 @@ public interface UserManager {
     List<UserDO> getUserList(UserQO query, Pager pager);
 
     /**
-     * 添加用户
+     * 娣诲姞鐢ㄦ埛
      * @param userBO
      * @return
      * @throws Exception
@@ -30,7 +30,7 @@ public interface UserManager {
     int insertUser(UserBO userBO) throws Exception;
 
     /**
-     * 根据ID查询用户
+     * 鏍规嵁ID鏌ヨ鐢ㄦ埛
      * @param userId
      * @return
      */

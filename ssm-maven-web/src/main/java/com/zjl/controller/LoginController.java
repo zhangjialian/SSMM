@@ -36,7 +36,7 @@ public class LoginController extends BaseController{
     Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     /**
-     * ´ò¿ªÓÃ»§µÇÂ¼Ò³Ãæ
+     * æ‰“å¼€ç”¨æˆ·ç™»å½•é¡µé¢
      * @param map
      * @return
      */
@@ -46,7 +46,7 @@ public class LoginController extends BaseController{
     }
 
     /**
-     * ÓÃ»§µÇÂ¼
+     * ç”¨æˆ·ç™»å½•
      * @param map
      * @param request
      * @param response
@@ -67,7 +67,7 @@ public class LoginController extends BaseController{
         }
         session.setAttribute(SessionEnum.LOGIN_USER.getCode(), user);
 
-        //Èç¹û´æÔÚÒªÌø×ªµÄurl£¬ÔòÖ±½ÓÌø×ª
+        //å¦‚æœå­˜åœ¨è¦è·³è½¬çš„urlï¼Œåˆ™ç›´æ¥è·³è½¬
         String requestUrl = (String) session.getAttribute(SessionEnum.REQUEST_UTL.getCode());
         if(!StringUtils.isEmpty(requestUrl)){
             response.sendRedirect(requestUrl);
@@ -75,11 +75,11 @@ public class LoginController extends BaseController{
             response.sendRedirect(PageURLEnum.ADMIN_INDEX.getUrl());
         }
 
-        return getSuccessResponse("µÇÂ¼³É¹¦");
+        return getSuccessResponse("ç™»å½•æˆåŠŸ");
     }
 
     /**
-     * ÓÃ»§µÇ³ö
+     * ç”¨æˆ·ç™»å‡º
      * @param map
      * @param request
      * @param response
@@ -92,7 +92,7 @@ public class LoginController extends BaseController{
         HttpSession session = request.getSession();
         session.setAttribute(SessionEnum.LOGIN_USER.getCode(), null);
         response.sendRedirect(PageURLEnum.LOGIN.getUrl());
-        return getSuccessResponse("ÍË³ö³É¹¦");
+        return getSuccessResponse("é€€å‡ºæˆåŠŸ");
     }
 
 

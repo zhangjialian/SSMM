@@ -7,10 +7,10 @@ public class BaseResult implements Serializable {
 
 	private static final long serialVersionUID = 8292053430594967895L;
 
-	private boolean success = true;		// 操作是否成功
+	private boolean success = true;		// 鎿嶄綔鏄惁鎴愬姛
 	
 	/**
-	 * 当前操作是否成功
+	 * 褰撳墠鎿嶄綔鏄惁鎴愬姛
 	 * @return
 	 */
 	public boolean isSuccess() {
@@ -18,7 +18,7 @@ public class BaseResult implements Serializable {
 	}
 
 	/**
-	 * 设置操作结果
+	 * 璁剧疆鎿嶄綔缁撴灉
 	 * @param success
 	 */
 	public void setSuccess(boolean success) {

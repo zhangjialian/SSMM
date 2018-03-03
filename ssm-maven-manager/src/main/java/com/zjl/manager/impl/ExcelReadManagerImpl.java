@@ -26,21 +26,21 @@ public class ExcelReadManagerImpl implements ExcelReadManager {
     Logger logger = LoggerFactory.getLogger(ExcelReadManagerImpl.class);
 
     /**
-     * ÅúÁ¿¶ÁÈ¡ÉÏ´«ÎÄ¼şµÄÓÃ»§ĞÅÏ¢
+     * æ‰¹é‡è¯»å–ä¸Šä¼ æ–‡ä»¶çš„ç”¨æˆ·ä¿¡æ¯
      * @param inputStream
      * @return
      * @throws Exception
      */
     @Override
     public List<UserBO> batchReadUser(InputStream inputStream) throws Exception {
-        //´æ·Å¶ÁÈ¡µ½µÄ¼ÇÂ¼
+        //å­˜æ”¾è¯»å–åˆ°çš„è®°å½•
         List<UserBO> userBOList = new ArrayList<>();
 
         Workbook workbook = null;
         try {
-            workbook = WorkbookFactory.create(inputStream);// ÕâÖÖ·½Ê½
+            workbook = WorkbookFactory.create(inputStream);// è¿™ç§æ–¹å¼
         } catch (Exception e) {
-            logger.error("@batchReadUser½âÎöExcelÎÄ¼ş³ö´í, ´«Èë²ÎÊı{}, Òì³£ĞÅÏ¢{}", inputStream, e);
+            logger.error("@batchReadUserè§£æExcelæ–‡ä»¶å‡ºé”™, ä¼ å…¥å‚æ•°{}, å¼‚å¸¸ä¿¡æ¯{}", inputStream, e);
             throw new ErrorCodeException(ErrorCodeEnum.FI01);
         }
 
@@ -48,12 +48,12 @@ public class ExcelReadManagerImpl implements ExcelReadManager {
             return new ArrayList<>();
         }
 
-        // Ä¬ÈÏ»ñÈ¡µÚÒ»¸ö¹¤×÷±í
+        // é»˜è®¤è·å–ç¬¬ä¸€ä¸ªå·¥ä½œè¡¨
         Sheet sheet = workbook.getSheetAt(0);
         int rowCount = sheet.getPhysicalNumberOfRows();
         Row row = null;
 
-        // Êı¾İÆğÊ¼ĞĞ£¬Ìø¹ı±êÌâ(µÚ0ĞĞ)
+        // æ•°æ®èµ·å§‹è¡Œï¼Œè·³è¿‡æ ‡é¢˜(ç¬¬0è¡Œ)
         int startRowNo = 1;
         for (int i = startRowNo; i < rowCount; i++) {
             row = (Row) sheet.getRow(i);
@@ -62,7 +62,7 @@ public class ExcelReadManagerImpl implements ExcelReadManager {
             String username = this.getCellValue(row.getCell(1), null);
             String email = this.getCellValue(row.getCell(2), null);
 
-            //Èç¹ûµ±Ç°ĞĞÈ«²¿Îª¿Õ£¬Ôò²»ÔÙÍùÏÂ¶ÁÈ¡Êı¾İ
+            //å¦‚æœå½“å‰è¡Œå…¨éƒ¨ä¸ºç©ºï¼Œåˆ™ä¸å†å¾€ä¸‹è¯»å–æ•°æ®
             if(StringUtils.isEmpty(username) && StringUtils.isEmpty(name) && StringUtils.isEmpty(email)){
                 break;
             }
@@ -89,7 +89,7 @@ public class ExcelReadManagerImpl implements ExcelReadManager {
         }
         String cellValue = null;
         switch (cell.getCellType()) {
-            case Cell.CELL_TYPE_STRING: // ÎÄ±¾
+            case Cell.CELL_TYPE_STRING: // æ–‡æœ¬
                 cellValue = cell.getStringCellValue();
                 break;
             case Cell.CELL_TYPE_NUMERIC:
@@ -97,27 +97,27 @@ public class ExcelReadManagerImpl implements ExcelReadManager {
                     try {
                         cellValue = DateUtils.chanageToDayString(cell.getDateCellValue());
                     } catch (ParseException e) {
-                        logger.error("½âÎö×ª»»ÈÕÆÚĞÍµ¥Ôª¸ñ³ö´í,Ä¬ÈÏÎª¿Õ,@getCellValue,´«Èë²ÎÊı{},Òì³£ĞÅÏ¢", cell.getDateCellValue(), e);
+                        logger.error("è§£æè½¬æ¢æ—¥æœŸå‹å•å…ƒæ ¼å‡ºé”™,é»˜è®¤ä¸ºç©º,@getCellValue,ä¼ å…¥å‚æ•°{},å¼‚å¸¸ä¿¡æ¯", cell.getDateCellValue(), e);
                         cellValue = "";
-                    } // ÈÕÆÚĞÍ
+                    } // æ—¥æœŸå‹
                 } else {
-                    cellValue = df.format(cell.getNumericCellValue()); // Êı×Ö
+                    cellValue = df.format(cell.getNumericCellValue()); // æ•°å­—
                 }
                 break;
-            case Cell.CELL_TYPE_BOOLEAN: // ²¼¶ûĞÍ
+            case Cell.CELL_TYPE_BOOLEAN: // å¸ƒå°”å‹
                 cellValue = String.valueOf(cell.getBooleanCellValue());
                 break;
-            case Cell.CELL_TYPE_BLANK: // ¿Õ°×
+            case Cell.CELL_TYPE_BLANK: // ç©ºç™½
                 cellValue = cell.getStringCellValue();
                 break;
-            case Cell.CELL_TYPE_ERROR: // ´íÎó
-                cellValue = "´íÎó";
+            case Cell.CELL_TYPE_ERROR: // é”™è¯¯
+                cellValue = "é”™è¯¯";
                 break;
-            case Cell.CELL_TYPE_FORMULA: // ¹«Ê½
-                cellValue = "´íÎó";
+            case Cell.CELL_TYPE_FORMULA: // å…¬å¼
+                cellValue = "é”™è¯¯";
                 break;
             default:
-                cellValue = "´íÎó";
+                cellValue = "é”™è¯¯";
         }
         return cellValue.trim();
     }

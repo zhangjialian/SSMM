@@ -46,7 +46,7 @@ public class UserController extends BaseController{
     private ExcelWriteManager excelWriteManager;
 
     /**
-     * 默认访问页面
+     * 榛樿璁块棶椤甸潰
      * @param map
      * @param query
      * @param pager
@@ -74,7 +74,7 @@ public class UserController extends BaseController{
     }
 
     /**
-     * 获取用户列表
+     * 鑾峰彇鐢ㄦ埛鍒楄〃
      * @param query
      * @param pager
      * @return
@@ -88,7 +88,7 @@ public class UserController extends BaseController{
     }
 
     /**
-     * 增加用户
+     * 澧炲姞鐢ㄦ埛
      * @param userBO
      * @return
      * @throws Exception
@@ -107,7 +107,7 @@ public class UserController extends BaseController{
     }
 
     /**
-     * 批量添加用户
+     * 鎵归噺娣诲姞鐢ㄦ埛
      * @param file
      * @param request
      * @param response
@@ -119,11 +119,11 @@ public class UserController extends BaseController{
     public SuccessResponse<Object> batchImportUser(@RequestParam(value = "file", required = false) MultipartFile file,
                                                    HttpServletRequest request, HttpServletResponse response) throws Exception{
         List<UserBO> userBOList = excelReadManager.batchReadUser(file.getInputStream());
-        return getSuccessResponse("导入成功");
+        return getSuccessResponse("瀵煎叆鎴愬姛");
     }
 
     /**
-     * 下载excel模板
+     * 涓嬭浇excel妯℃澘
      * @param request
      * @param response
      * @throws Exception
@@ -144,7 +144,7 @@ public class UserController extends BaseController{
     }
 
     /**
-     * 测试用户cookie
+     * 娴嬭瘯鐢ㄦ埛cookie
      * @param request
      * @param response
      * @param session

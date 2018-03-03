@@ -1,7 +1,7 @@
 package com.zjl.common.response;
 
 /**
- * ÏìÓ¦³É¹¦µÄÇëÇó
+ * å“åº”æˆåŠŸçš„è¯·æ±‚
  * @param <T>
  */
 public class SuccessResponse<T> extends BaseResult {
@@ -9,7 +9,7 @@ public class SuccessResponse<T> extends BaseResult {
 	private static final long serialVersionUID = -6939354078506119260L;
 
 	/**
-	 * ³É¹¦½á¹û
+	 * æˆåŠŸç»“æœ
 	 */
 	private T result;
 
@@ -18,7 +18,7 @@ public class SuccessResponse<T> extends BaseResult {
 	private int pageNo=0;
 	
 	/**
-	 * ·µ»Ø×ÜÊı
+	 * è¿”å›æ€»æ•°
 	 */
 	private long count=0;
 	

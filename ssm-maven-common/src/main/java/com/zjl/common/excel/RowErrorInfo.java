@@ -3,10 +3,10 @@ package com.zjl.common.excel;
 import java.io.Serializable;
 
 /**
- * Ìá½»Éí·İÖ¤ĞÅÏ¢µÄ´íÎóĞÅÏ¢
+ * æäº¤èº«ä»½è¯ä¿¡æ¯çš„é”™è¯¯ä¿¡æ¯
  * 
  * @since 1.0
- * @version 2016Äê5ÔÂ9ÈÕ ÏÂÎç5:21:02
+ * @version 2016å¹´5æœˆ9æ—¥ ä¸‹åˆ5:21:02
  * @author lcc
  */
 
@@ -14,12 +14,12 @@ public class RowErrorInfo implements Serializable {
 
 	private static final long serialVersionUID = 4193629436092146618L;
 	/**
-	 * ³ö´íµÄĞĞºÅ
+	 * å‡ºé”™çš„è¡Œå·
 	 */
 	private int rowNo;
 
 	/**
-	 * ´íÎóĞÅÏ¢
+	 * é”™è¯¯ä¿¡æ¯
 	 */
 	private String errorInfo;
 

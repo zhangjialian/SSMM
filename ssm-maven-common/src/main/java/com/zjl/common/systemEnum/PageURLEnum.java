@@ -1,16 +1,16 @@
 package com.zjl.common.systemEnum;
 
 /**
- * ³£ÓÃÒ³Ãæurl
+ * å¸¸ç”¨é¡µé¢url
  * 
  * @author anling.xlj
  * 
  */
 public enum PageURLEnum {
-	LOGIN("LOGIN", "ÓÃ»§µÇÂ¼", "/login/index"),
-	SUBMIT_LOGIN("SUBMIT_LOGIN", "Ìá½»µÇÂ¼", "/login/submitLogin"),
-	LOGOUT("LOGOUT", "ÍË³öµÇÂ¼", "/login/logout"),
-	ADMIN_INDEX("ADMIN_INDEX", "ÏµÍ³Ö÷Ò³", "/user/getUserList")
+	LOGIN("LOGIN", "ç”¨æˆ·ç™»å½•", "/login/index"),
+	SUBMIT_LOGIN("SUBMIT_LOGIN", "æäº¤ç™»å½•", "/login/submitLogin"),
+	LOGOUT("LOGOUT", "é€€å‡ºç™»å½•", "/login/logout"),
+	ADMIN_INDEX("ADMIN_INDEX", "ç³»ç»Ÿä¸»é¡µ", "/user/getUserList")
 	;
 
 	private String code;

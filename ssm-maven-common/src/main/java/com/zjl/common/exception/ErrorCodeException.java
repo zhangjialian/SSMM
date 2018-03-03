@@ -4,7 +4,7 @@ package com.zjl.common.exception;
 import com.zjl.common.systemEnum.ErrorCodeEnum;
 
 /**
- * ´íÎóÂëÒì³£
+ * é”™è¯¯ç å¼‚å¸¸
  * 
  * @author anling.xlj
  *
@@ -16,7 +16,7 @@ public class ErrorCodeException extends Exception {
 	private ErrorCodeEnum errorCode;
 
 	/**
-	 * ´ø´íÎóÂëµÄ¹¹Ôìº¯Êı
+	 * å¸¦é”™è¯¯ç çš„æ„é€ å‡½æ•°
 	 * 
 	 * @param errorCode
 	 */
@@ -25,7 +25,7 @@ public class ErrorCodeException extends Exception {
 	}
 
 	/**
-	 * »ñÈ¡´íÎóÂë
+	 * è·å–é”™è¯¯ç 
 	 * 
 	 * @return
 	 */

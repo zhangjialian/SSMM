@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GBK"?>
+<?xml version="1.0" encoding="utf-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
@@ -7,7 +7,7 @@
      http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
        default-autowire="byName">
 
-    <!-- 引入加载prop -->
+    <!-- 寮曞叆鍔犺浇prop -->
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="ignoreUnresolvablePlaceholders" value="true"/>
         <property name="locations">
@@ -18,14 +18,14 @@
     </bean>
 
     <dubbo:application name="provider"  />
-    <!-- 使用zookeeper注册中心暴露服务地址 -->
+    <!-- 浣跨敤zookeeper娉ㄥ唽涓績鏆撮湶鏈嶅姟鍦板潃 -->
     <dubbo:registry address="${zookeeper.address}" />
-    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <!-- 鐢╠ubbo鍗忚鍦�20880绔彛鏆撮湶鏈嶅姟 -->
     <dubbo:protocol name="dubbo" port="29014" />
 
 
     <bean id="userService" class="com.zjl.service.impl.UserServiceImpl" />
-    <!-- 声明需要暴露的服务接口 -->
+    <!-- 澹版槑闇�瑕佹毚闇茬殑鏈嶅姟鎺ュ彛 -->
     <dubbo:service interface="com.zjl.service.UserService" ref="userService" />
 
 </beans>

@@ -22,7 +22,7 @@ public interface UserDao {
     UserBO getUserById(int userId);
 
     /**
-     * 根据id修改用户信息
+     * 鏍规嵁id淇敼鐢ㄦ埛淇℃伅
      * @param userBO
      * @return
      */

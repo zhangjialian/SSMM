@@ -2,17 +2,17 @@ package com.zjl.common;
 
 public class Pager {
 	/**
-	 * Ò³ÃæÌõÄ¿Êı
+	 * é¡µé¢æ¡ç›®æ•°
 	 */
 	private Integer pageSize;
 
 	/**
-	 * µ±Ç°Ò³Âë
+	 * å½“å‰é¡µç 
 	 */
 	private Integer currentPage;
 
 	/**
-	 * ×ÜµÄÌõÄ¿Êı
+	 * æ€»çš„æ¡ç›®æ•°
 	 */
 	private Integer totalSize;
 
@@ -45,7 +45,7 @@ public class Pager {
 	}
 
 	/**
-	 * »ñÈ¡·ÖÒ³µÄhtml´úÂë
+	 * è·å–åˆ†é¡µçš„htmlä»£ç 
 	 * @param currentPage
 	 * @param totalSize
 	 * @param pageSize
@@ -62,7 +62,7 @@ public class Pager {
 		}
 		String header = "";
 		if (currentPage > 1) {
-			header += " <a href=\"javascript:doPage(" + (currentPage - 1) + ")\">ÉÏÒ»Ò³</a>";
+			header += " <a href=\"javascript:doPage(" + (currentPage - 1) + ")\">ä¸Šä¸€é¡µ</a>";
 		}
 		int vstart;
 		int end;
@@ -89,9 +89,9 @@ public class Pager {
 		}
 
 		if (currentPage < pages) {
-			header += " <a href=\"javascript:doPage(" + (currentPage + 1) + ")\">ÏÂÒ»Ò³</a>";
+			header += " <a href=\"javascript:doPage(" + (currentPage + 1) + ")\">ä¸‹ä¸€é¡µ</a>";
 		}
-		header += "<span>¹²" + totalSize + "Ìõ¼ÇÂ¼</span>";
+		header += "<span>å…±" + totalSize + "æ¡è®°å½•</span>";
 		header += hiddenPage;
 		return header;
 	}
@@ -99,11 +99,11 @@ public class Pager {
 	private int getTotalPageNum(int currentPage, int pageSize, int totalSize) {
 		int totalPageCount = 1;
 		if (pageSize == 0) {
-			// Ã¿Ò³ÌõÄ¿ÉèÖÃ´íÎó£¬Ä¬ÈÏ×ÜÒ³ÊıÎªÒ»
+			// æ¯é¡µæ¡ç›®è®¾ç½®é”™è¯¯ï¼Œé»˜è®¤æ€»é¡µæ•°ä¸ºä¸€
 			return totalPageCount;
 		}
 		if (totalSize == 0) {
-			// ×ÜÌõÊıÎªÁã£¬Ö»»áÓĞµÚÒ»Ò³
+			// æ€»æ¡æ•°ä¸ºé›¶ï¼Œåªä¼šæœ‰ç¬¬ä¸€é¡µ
 			return totalPageCount;
 		}
 		if (totalSize % pageSize == 0) {
@@ -115,7 +115,7 @@ public class Pager {
 		return totalSize;
 	}
 
-	// ³õÊ¼»¯·ÖÒ³¿Ø¼ş£¬Èç¹ûµ±Ç°Ò³ÃæÎªnull»ò0ÔòÉè¶¨Îª1,µ±pageSizeÃ»Éè¶¨Ê±ºò£¬Éè¶¨ÎÒÃÇÏëÒªÉè¶¨µÄpageSize
+	// åˆå§‹åŒ–åˆ†é¡µæ§ä»¶ï¼Œå¦‚æœå½“å‰é¡µé¢ä¸ºnullæˆ–0åˆ™è®¾å®šä¸º1,å½“pageSizeæ²¡è®¾å®šæ—¶å€™ï¼Œè®¾å®šæˆ‘ä»¬æƒ³è¦è®¾å®šçš„pageSize
 	public void initiPager(int pageSizeToSet) {
 		if (currentPage == null) {
 			currentPage = 1;

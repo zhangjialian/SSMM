@@ -18,7 +18,7 @@ public class RedisUtil implements Serializable {
     private RedisTemplate<Serializable, Object> redisTemplate;
 
     /**
-     * 批量删除对应的value
+     * 鎵归噺鍒犻櫎瀵瑰簲鐨剉alue
      *
      * @param keys
      */
@@ -29,7 +29,7 @@ public class RedisUtil implements Serializable {
     }
 
     /**
-     * 批量删除key
+     * 鎵归噺鍒犻櫎key
      *
      * @param pattern
      */
@@ -40,7 +40,7 @@ public class RedisUtil implements Serializable {
     }
 
     /**
-     * 删除对应的value
+     * 鍒犻櫎瀵瑰簲鐨剉alue
      *
      * @param key
      */
@@ -51,7 +51,7 @@ public class RedisUtil implements Serializable {
     }
 
     /**
-     * 判断缓存中是否有对应的value
+     * 鍒ゆ柇缂撳瓨涓槸鍚︽湁瀵瑰簲鐨剉alue
      *
      * @param key
      * @return
@@ -61,7 +61,7 @@ public class RedisUtil implements Serializable {
     }
 
     /**
-     * 读取缓存
+     * 璇诲彇缂撳瓨
      *
      * @param key
      * @return
@@ -74,7 +74,7 @@ public class RedisUtil implements Serializable {
     }
 
     /**
-     * 写入缓存
+     * 鍐欏叆缂撳瓨
      *
      * @param key
      * @param value
@@ -93,7 +93,7 @@ public class RedisUtil implements Serializable {
     }
 
     /**
-     * 写入缓存
+     * 鍐欏叆缂撳瓨
      *
      * @param key
      * @param value

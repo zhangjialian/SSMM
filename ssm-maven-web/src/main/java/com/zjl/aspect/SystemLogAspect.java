@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * 系统日志
+ * 绯荤粺鏃ュ織
  */
 @Aspect
 @Component
@@ -26,7 +26,7 @@ public class SystemLogAspect {
     @Pointcut("execution(public * com.zjl.controller..*(..))")
     private void controllerAspect(){}
 
-    /************实现部分************/
+    /************瀹炵幇閮ㄥ垎************/
     @Before("controllerAspect()")
     public void doBefore(JoinPoint joinPoint){
         String uri = request.getRequestURI();

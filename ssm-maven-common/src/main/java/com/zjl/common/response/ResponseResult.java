@@ -6,10 +6,10 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * ruhnnÒµÎñ´¦Àí½á¹û¼¯
+ * ruhnnä¸šåŠ¡å¤„ç†ç»“æœé›†
  * 
  * @since 1.0
- * @version 2016Äê3ÔÂ21ÈÕ ÏÂÎç6:51:31
+ * @version 2016å¹´3æœˆ21æ—¥ ä¸‹åˆ6:51:31
  * @author zhangby5
  */
 public class ResponseResult<E> implements Serializable {
@@ -20,22 +20,22 @@ public class ResponseResult<E> implements Serializable {
 	private static final long serialVersionUID = 7239094706144266342L;
 
 	/**
-	 * Ö´ĞĞ³É¹¦µÄÁĞ±í
+	 * æ‰§è¡ŒæˆåŠŸçš„åˆ—è¡¨
 	 */
 	private List<E> successList;
 
 	/**
-	 * Ö´ĞĞÊ§°ÜµÄÁĞ±í
+	 * æ‰§è¡Œå¤±è´¥çš„åˆ—è¡¨
 	 */
 	private List<E> faileList;
 
 	/**
-	 * Ê§°ÜÔ­Òò
+	 * å¤±è´¥åŸå› 
 	 */
 	private String failedReason;
 
 	/**
-	 * ¹¹ÔìÆ÷<strong>Ä¬ÈÏ·ÇÏß³Ì°²È«</strong>
+	 * æ„é€ å™¨<strong>é»˜è®¤éçº¿ç¨‹å®‰å…¨</strong>
 	 */
 	public ResponseResult() {
 		super();
@@ -44,12 +44,12 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * ¹¹ÔìÆ÷
+	 * æ„é€ å™¨
 	 *
 	 * @param sync
-	 *            ÊÇ·ñ¹¹ÔìÏß³Ì°²È«µÄ½á¹û¼¯<br>
-	 *            true:<strong>Ïß³Ì°²È«</strong><br>
-	 *            false:<strong>·ÇÏß³Ì°²È«</strong>
+	 *            æ˜¯å¦æ„é€ çº¿ç¨‹å®‰å…¨çš„ç»“æœé›†<br>
+	 *            true:<strong>çº¿ç¨‹å®‰å…¨</strong><br>
+	 *            false:<strong>éçº¿ç¨‹å®‰å…¨</strong>
 	 */
 	public ResponseResult(boolean sync) {
 		if (sync) {
@@ -63,7 +63,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * Ôö¼Ó½á¹û¼¯
+	 * å¢åŠ ç»“æœé›†
 	 * 
 	 * @param result
 	 */
@@ -73,7 +73,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * Ìí¼Ó³É¹¦½á¹û¼¯
+	 * æ·»åŠ æˆåŠŸç»“æœé›†
 	 * 
 	 * @param successList
 	 */
@@ -85,7 +85,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * Ìí¼ÓÊ§°Ü½á¹û¼¯
+	 * æ·»åŠ å¤±è´¥ç»“æœé›†
 	 * 
 	 * @param failedList
 	 */
@@ -97,7 +97,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * ÒÆ³ı³É¹¦½á¹û¼¯
+	 * ç§»é™¤æˆåŠŸç»“æœé›†
 	 * 
 	 * @param successList
 	 */
@@ -109,7 +109,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * ÒÆ³ıÊ§°Ü½á¹û¼¯
+	 * ç§»é™¤å¤±è´¥ç»“æœé›†
 	 * 
 	 * @param failedList
 	 */
@@ -121,7 +121,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * Ôö¼Ó³É¹¦µÄ½á¹û
+	 * å¢åŠ æˆåŠŸçš„ç»“æœ
 	 * 
 	 * @param e
 	 */
@@ -133,7 +133,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * Ôö¼ÓÊ§°ÜµÄ½á¹û
+	 * å¢åŠ å¤±è´¥çš„ç»“æœ
 	 * 
 	 * @param e
 	 */
@@ -145,7 +145,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * ÒÆ³ı³É¹¦µÄ½á¹û
+	 * ç§»é™¤æˆåŠŸçš„ç»“æœ
 	 * 
 	 * @param e
 	 */
@@ -157,7 +157,7 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * ÒÆ³ıÊ§°ÜµÄ½á¹û
+	 * ç§»é™¤å¤±è´¥çš„ç»“æœ
 	 * 
 	 * @param e
 	 */
@@ -169,38 +169,38 @@ public class ResponseResult<E> implements Serializable {
 	}
 
 	/**
-	 * »ñÈ¡³É¹¦µÄÁĞ±í
+	 * è·å–æˆåŠŸçš„åˆ—è¡¨
 	 * 
-	 * @return ³É¹¦µÄÁĞ±í
+	 * @return æˆåŠŸçš„åˆ—è¡¨
 	 */
 	public List<E> getSuccessList() {
 		return this.successList;
 	}
 
 	/**
-	 * ÉèÖÃ³É¹¦µÄÁĞ±í
+	 * è®¾ç½®æˆåŠŸçš„åˆ—è¡¨
 	 * 
 	 * @param successList
-	 *            ³É¹¦µÄÁĞ±í
+	 *            æˆåŠŸçš„åˆ—è¡¨
 	 */
 	public void setSuccessList(List<E> successList) {
 		this.successList = successList;
 	}
 
 	/**
-	 * »ñÈ¡Ê§°ÜµÄÁĞ±í
+	 * è·å–å¤±è´¥çš„åˆ—è¡¨
 	 * 
-	 * @return Ê§°ÜµÄÁĞ±í
+	 * @return å¤±è´¥çš„åˆ—è¡¨
 	 */
 	public List<E> getFaileList() {
 		return this.faileList;
 	}
 
 	/**
-	 * ÉèÖÃÊ§°ÜµÄÁĞ±í
+	 * è®¾ç½®å¤±è´¥çš„åˆ—è¡¨
 	 * 
 	 * @param faileList
-	 *            Ê§°ÜµÄÁĞ±í
+	 *            å¤±è´¥çš„åˆ—è¡¨
 	 */
 	public void setFaileList(List<E> faileList) {
 		this.faileList = faileList;

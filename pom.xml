@@ -19,7 +19,7 @@
     </modules>
 
     <properties>
-        <project.build.sourceEncoding>GBK</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit-version>4.12</junit-version>
         <project-version>1.0-SNAPSHOT</project-version>
         <java.version>1.8</java.version>
@@ -48,7 +48,7 @@
 
     <build>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
@@ -56,7 +56,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

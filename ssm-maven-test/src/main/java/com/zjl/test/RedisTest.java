@@ -19,7 +19,7 @@ public class RedisTest extends BaseTest {
     @Test
     public void test(){
 
-
+        System.out.println(redisTemplate);
 
     }
 

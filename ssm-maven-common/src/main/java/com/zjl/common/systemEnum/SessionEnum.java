@@ -1,15 +1,15 @@
 package com.zjl.common.systemEnum;
 
 /**
- * ³£ÓÃÒ³Ãæurl
+ * å¸¸ç”¨é¡µé¢url
  * 
  * @author anling.xlj
  * 
  */
 public enum SessionEnum {
-	JSESSIONID("JSESSIONID", "ÓÃ»§µÇÂ¼cookie±êÖ¾"),
-	LOGIN_USER("LOGIN_USER", "µÇÂ¼µÄÓÃ»§"),
-	REQUEST_UTL("REQUEST_UTL", "ÖØ¶¨ÏòÇ°ÇëÇóµÄÂ·ÓÉ")
+	JSESSIONID("JSESSIONID", "ç”¨æˆ·ç™»å½•cookieæ ‡å¿—"),
+	LOGIN_USER("LOGIN_USER", "ç™»å½•çš„ç”¨æˆ·"),
+	REQUEST_UTL("REQUEST_UTL", "é‡å®šå‘å‰è¯·æ±‚çš„è·¯ç”±")
 	;
 
 	private String code;

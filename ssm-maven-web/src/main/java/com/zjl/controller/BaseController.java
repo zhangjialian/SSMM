@@ -22,8 +22,8 @@ import javax.servlet.http.HttpSession;
 public class BaseController {
 
     /**
-     * 获取封装后的成功返回结果
-     * @param result 返回结果
+     * 鑾峰彇灏佽鍚庣殑鎴愬姛杩斿洖缁撴灉
+     * @param result 杩斿洖缁撴灉
      * @return
      */
     protected SuccessResponse<Object> getSuccessResponse(Object result) {
@@ -40,7 +40,7 @@ public class BaseController {
     }
 
     /**
-     * 获取用户标识的cookie信息
+     * 鑾峰彇鐢ㄦ埛鏍囪瘑鐨刢ookie淇℃伅
      * @param request
      * @param key
      * @return
@@ -65,7 +65,7 @@ public class BaseController {
     }
 
     /**
-     * 拦截异常信息
+     * 鎷︽埅寮傚父淇℃伅
      * @param request
      * @param response
      * @param e

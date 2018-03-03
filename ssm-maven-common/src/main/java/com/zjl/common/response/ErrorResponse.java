@@ -3,7 +3,7 @@ package com.zjl.common.response;
 import com.zjl.common.systemEnum.ErrorCodeEnum;
 
 /**
- * ÏìÓ¦Ê§°ÜµÄÇëÇó
+ * å“åº”å¤±è´¥çš„è¯·æ±‚
  * @param <T>
  */
 public class ErrorResponse<T> extends BaseResult {
@@ -15,17 +15,17 @@ public class ErrorResponse<T> extends BaseResult {
 
 
 	/**
-	 * ´íÎó´úÂë
+	 * é”™è¯¯ä»£ç 
 	 */
 	private String errorCode;
 
 	/**
-	 * ½á¹ûËµÃ÷
+	 * ç»“æœè¯´æ˜
 	 */
 	private String errorDesc;
 	
 	/*****************************
-	 *ĞèÒª·µ»ØµÄ½á¹û
+	 *éœ€è¦è¿”å›çš„ç»“æœ
 	 */
 	private T result;
 	
