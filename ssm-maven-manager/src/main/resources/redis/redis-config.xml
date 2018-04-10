@@ -31,8 +31,8 @@
         <property name="connectionFactory" ref="jedisConnectionFactory"/>
     </bean>
 
-    <bean id="redisUtil" class="com.zjl.common.util.RedisUtil" >
+    <!--<bean id="redisUtil" class="com.zjl.common.util.RedisUtil" >
         <property name="redisTemplate" ref="redisTemplate" />
-    </bean >
+    </bean >-->
 
 </beans>
