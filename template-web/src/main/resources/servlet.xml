@@ -19,7 +19,7 @@
     <aop:aspectj-autoproxy proxy-target-class="true" />
 
     <!-- 扫描controller包 -->
-    <context:component-scan base-package="com.zjl.controller" >
+    <context:component-scan base-package="com.starfish.controller" >
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
@@ -37,7 +37,7 @@
             <!-- 专门用于测试的url -->
             <mvc:exclude-mapping path="/test/**" />
 
-            <bean class="com.zjl.monitor.interceptor.AdminInterceptor"/>
+            <bean class="com.starfish.monitor.interceptor.AdminInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
 

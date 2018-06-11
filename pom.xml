@@ -302,6 +302,13 @@
                 <version>${zkclient-version}</version>
             </dependency>
 
+            <!-- shiro -->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>1.1.0</version>
+            </dependency>
+
             <!-- JSTL -->
             <dependency>
                 <groupId>jstl</groupId>

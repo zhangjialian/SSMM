@@ -1,4 +1,4 @@
-<%@ page import="com.zjl.common.User" %>
+<%@ page import="com.starfish.common.User" %>
 <html>
 <body>
 <h2>

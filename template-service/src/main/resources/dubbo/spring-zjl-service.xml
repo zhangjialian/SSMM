@@ -24,8 +24,8 @@
     <dubbo:protocol name="dubbo" port="29014" />
 
 
-    <bean id="userService" class="com.zjl.service.impl.UserServiceImpl" />
+    <bean id="userService" class="com.starfish.service.impl.UserServiceImpl" />
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.zjl.service.UserService" ref="userService" />
+    <dubbo:service interface="com.starfish.service.UserService" ref="userService" />
 
 </beans>

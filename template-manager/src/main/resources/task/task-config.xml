@@ -17,7 +17,7 @@
         <property name="queueCapacity" value="20" />
         <!-- 对拒绝task的处理策略 -->
         <property name="rejectedExecutionHandler">
-            <bean class="com.zjl.manager.task.ThreadPoolExecutorHandle" />
+            <bean class="com.starfish.manager.task.ThreadPoolExecutorHandle" />
         </property>
     </bean>
 
