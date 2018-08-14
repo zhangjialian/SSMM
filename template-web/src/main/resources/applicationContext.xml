@@ -26,4 +26,5 @@
 
     <import resource="classpath:spring-manager-bean.xml" />
     <import resource="classpath:spring-mybaits.xml" />
+    <aop:aspectj-autoproxy/>
 </beans>

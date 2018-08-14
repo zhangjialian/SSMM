@@ -13,18 +13,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>com.starfish</groupId>
             <artifactId>template-manager</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.starfish</groupId>
             <artifactId>template-monitor</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
 
         <!-- JSTL -->
@@ -32,8 +31,8 @@
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
-
     </dependencies>
+
     <build>
         <finalName>web</finalName>
         <plugins>

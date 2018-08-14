@@ -22,7 +22,7 @@
         </dependency>
         <dependency>
             <groupId>com.starfish</groupId>
-            <artifactId>template-service</artifactId>
+            <artifactId>template-monitor</artifactId>
         </dependency>
 
         <!-- servlet -->

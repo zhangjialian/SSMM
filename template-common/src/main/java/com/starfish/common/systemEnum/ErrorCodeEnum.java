@@ -7,6 +7,8 @@ package com.starfish.common.systemEnum;
  * 
  */
 public enum ErrorCodeEnum {
+	B01("B01", "业务异常"),
+
 	//系统级别
 	P01("P01", "参数错误"),
 
@@ -14,6 +16,8 @@ public enum ErrorCodeEnum {
 	LG01("LG01", "用户未登录"),
 	LG02("LG02", "userId为0，登录失败"),
 	LG03("LG03", "登录失败，根据id找不到对应用户"),
+
+	MQ01("MQ01", "消息发送失败"),
 
 	//用户
 	UR01("UR01", "用户名已存在，新增失败"),

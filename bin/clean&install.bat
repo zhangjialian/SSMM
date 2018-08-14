@@ -2,7 +2,7 @@ echo ***********compile***********
 
 cd ..
 
-call mvn clean install -Denv=release4Dev -Dmaven.test.skip
+call mvn clean install -Dmaven.test.skip
 
 
 goto end
