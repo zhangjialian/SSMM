@@ -9,6 +9,8 @@ package com.starfish.common.systemEnum;
 public enum ErrorCodeEnum {
 	B01("B01", "业务异常"),
 
+	DB01("DB01", "乐观锁更新异常"),
+
 	//系统级别
 	P01("P01", "参数错误"),
 

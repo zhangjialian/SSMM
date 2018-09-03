@@ -1,6 +1,6 @@
 package com.starfish.manager;
 
-import com.starfish.common.user.UserBO;
+import com.starfish.bo.UserBO;
 
 import java.io.InputStream;
 import java.util.List;

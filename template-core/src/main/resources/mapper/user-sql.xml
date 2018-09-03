@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.starfish.dao.UserDao">
+<mapper namespace="com.starfish.dao.UserDAO">
 
-	<select id="getUserList" parameterType="java.util.Map" resultType="com.starfish.common.user.UserDO">
+	<select id="getUserList" parameterType="java.util.Map" resultType="com.starfish.model.UserDO">
 		select id, name, username, email
 			from user
 	</select>
 
-	<insert id="insertUser" parameterType="com.starfish.common.user.UserBO">
+	<insert id="insertUser" parameterType="com.starfish.bo.UserBO">
 		insert into user(name, username, email)
 			values(#{name}, #{username}, #{email})
 	</insert>
 
-	<select id="getUserById" parameterType="int" resultType="com.starfish.common.user.UserBO">
+	<select id="getUserById" parameterType="int" resultType="com.starfish.bo.UserBO">
 			select id, name, username, email
 			from user
 			where id = #{id}
 			limit 1
 	</select>
 
-	<update id="updateUserById" parameterType="com.starfish.common.user.UserBO">
+	<update id="updateUserById" parameterType="com.starfish.bo.UserBO">
 		update `user`
 		set name = #{name}, username = #{username}, email = #{email}
 		where id = #{id}
 	</update>
+
+	<select id="queryByUserNameAndEmail" resultType="com.starfish.model.UserDO">
+		select
+		id, name, username, email
+		from user
+		where
+		username =#{username}
+		and email = #{email}
+	</select>
 
 </mapper>

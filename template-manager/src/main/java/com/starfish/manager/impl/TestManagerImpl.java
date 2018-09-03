@@ -1,18 +1,18 @@
 package com.starfish.manager.impl;
 
-import com.starfish.common.user.UserBO;
-import com.starfish.dao.UserDao;
+import com.alibaba.fastjson.JSON;
+import com.starfish.bo.UserBO;
+import com.starfish.dao.UserDAO;
 import com.starfish.manager.TestManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import javax.annotation.Resource;
 
 @Service
 public class TestManagerImpl implements TestManager {
 
-    @Resource
-    private UserDao userDao;
+    @Autowired
+    private UserDAO userDAO;
 
     /**
      * 测试连续两次新增的情况下，锁的作用范围
@@ -20,19 +20,13 @@ public class TestManagerImpl implements TestManager {
      */
     @Transactional(rollbackFor = Exception.class)
     @Override
-    public void testTransaction() throws Exception {
-        UserBO userBO = userDao.getUserById(1);
+    public void test1() throws Exception {
+        Thread.sleep(1000);
+        UserBO userBO = userDAO.getUserById(1);
+        System.out.println(JSON.toJSONString(userBO));
 
         userBO.setName("张哈哈");
-        System.out.println(userBO);
-
-        userDao.updateUserById(userBO);
-        System.out.println(12312);
-    }
-
-    @Override
-    public void insertTest() throws Exception {
-        System.out.println("--insertTest--");
+        userDAO.updateUserById(userBO);
     }
 
 }

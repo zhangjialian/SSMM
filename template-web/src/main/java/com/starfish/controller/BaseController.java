@@ -1,12 +1,11 @@
 package com.starfish.controller;
 
 
+import com.starfish.bo.UserBO;
 import com.starfish.common.exception.ErrorCodeException;
-import com.starfish.common.response.ErrorResponse;
-import com.starfish.common.response.SuccessResponse;
+import com.starfish.common.response.BaseResponse;
 import com.starfish.common.systemEnum.ErrorCodeEnum;
 import com.starfish.common.systemEnum.SessionEnum;
-import com.starfish.common.user.UserBO;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -23,12 +22,25 @@ public class BaseController {
 
     /**
      * 获取封装后的成功返回结果
-     * @param result 返回结果
+     * @param t 返回结果
      * @return
      */
-    protected SuccessResponse<Object> getSuccessResponse(Object result) {
-        SuccessResponse<Object> resp = new SuccessResponse<>();
-        resp.setResult(result);
+    protected BaseResponse<Object> getSuccessResponse(Object t) {
+        BaseResponse<Object> resp = new BaseResponse<>();
+        resp.setSuccess(true);
+        resp.setResult(t);
+        return resp;
+    }
+
+    /**
+     * 返回失败结果
+     * @param failedMsg
+     * @return
+     */
+    protected BaseResponse<Object> getFailedResponse(String failedMsg) {
+        BaseResponse<Object> resp = new BaseResponse<>();
+        resp.setSuccess(false);
+        resp.setFailedMsg(failedMsg);
         return resp;
     }
 
@@ -74,12 +86,10 @@ public class BaseController {
      */
     @ExceptionHandler
     @ResponseBody
-    protected ErrorResponse<Object> handleAndReturnData(HttpServletRequest request, HttpServletResponse response, Exception e) throws Exception{
+    protected BaseResponse<Object> handleAndReturnData(HttpServletRequest request, HttpServletResponse response, Exception e) throws Exception{
         if(e instanceof ErrorCodeException){
             ErrorCodeEnum errorCodeEnum = ((ErrorCodeException) e).getErrorEnum();
-            ErrorResponse<Object> errorResponse = new ErrorResponse<Object>(errorCodeEnum);
-            errorResponse.setResult(null);
-            return errorResponse;
+            return this.getFailedResponse(errorCodeEnum.getDesc());
         }
         throw e;
     }

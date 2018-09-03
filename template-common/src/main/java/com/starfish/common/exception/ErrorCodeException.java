@@ -9,7 +9,7 @@ import com.starfish.common.systemEnum.ErrorCodeEnum;
  * @author anling.xlj
  *
  */
-public class ErrorCodeException extends Exception {
+public class ErrorCodeException extends RuntimeException {
 
 	private static final long serialVersionUID = -2396422934408894887L;
 
@@ -17,7 +17,7 @@ public class ErrorCodeException extends Exception {
 
 	/**
 	 * 带错误码的构造函数
-	 * 
+	 *
 	 * @param errorCode
 	 */
 	public ErrorCodeException(ErrorCodeEnum errorCode) {
@@ -26,7 +26,7 @@ public class ErrorCodeException extends Exception {
 
 	/**
 	 * 获取错误码
-	 * 
+	 *
 	 * @return
 	 */
 	public ErrorCodeEnum getErrorEnum() {

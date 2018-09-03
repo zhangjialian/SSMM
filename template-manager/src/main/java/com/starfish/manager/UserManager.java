@@ -1,9 +1,9 @@
 package com.starfish.manager;
 
 import com.starfish.common.Pager;
-import com.starfish.common.user.UserBO;
-import com.starfish.common.user.UserDO;
-import com.starfish.common.user.UserQO;
+import com.starfish.bo.UserBO;
+import com.starfish.model.UserDO;
+import com.starfish.common.query.UserQuery;
 
 import java.util.List;
 
@@ -18,7 +18,7 @@ public interface UserManager {
      * @param pager
      * @return
      */
-    List<UserDO> getUserList(UserQO query, Pager pager);
+    List<UserDO> getUserList(UserQuery query, Pager pager);
 
     /**
      * 添加用户

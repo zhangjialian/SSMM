@@ -1,10 +1,10 @@
 package com.starfish.controller;
 
 import com.starfish.common.Pager;
-import com.starfish.common.user.UserBO;
-import com.starfish.common.user.UserDO;
-import com.starfish.common.user.UserQO;
-import com.starfish.common.response.SuccessResponse;
+import com.starfish.bo.UserBO;
+import com.starfish.common.response.BaseResponse;
+import com.starfish.model.UserDO;
+import com.starfish.common.query.UserQuery;
 import com.starfish.manager.ExcelReadManager;
 import com.starfish.manager.ExcelWriteManager;
 import com.starfish.manager.UserManager;
@@ -52,7 +52,7 @@ public class UserController extends BaseController{
      * @return
      */
     @RequestMapping(value = "/index", method = RequestMethod.GET)
-    public String index(ModelMap map, UserQO query, Pager pager){
+    public String index(ModelMap map, UserQuery query, Pager pager){
         pager.initiPager(20);
 
         int totalSize = 500;
@@ -80,7 +80,7 @@ public class UserController extends BaseController{
      */
     @RequestMapping(value = "/getUserList", method = RequestMethod.GET)
     @ResponseBody
-    public SuccessResponse<Object> getUserList(UserQO query, Pager pager){
+    public BaseResponse<Object> getUserList(UserQuery query, Pager pager){
         List<UserDO> userList = userManager.getUserList(query, pager);
 
         return getSuccessResponse(userList);
@@ -115,7 +115,7 @@ public class UserController extends BaseController{
      */
     @RequestMapping(value = "/batchImportUser", method = RequestMethod.POST)
     @ResponseBody
-    public SuccessResponse<Object> batchImportUser(@RequestParam(value = "file", required = false) MultipartFile file,
+    public BaseResponse<Object> batchImportUser(@RequestParam(value = "file", required = false) MultipartFile file,
                                                    HttpServletRequest request, HttpServletResponse response) throws Exception{
         List<UserBO> userBOList = excelReadManager.batchReadUser(file.getInputStream());
         return getSuccessResponse("导入成功");

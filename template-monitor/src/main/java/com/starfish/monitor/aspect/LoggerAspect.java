@@ -16,12 +16,12 @@ public class LoggerAspect {
 
     @Before("execution(* com.starfish.manager..*(..))")
     public void beforeLogger(){
-        System.out.println("begin logger");
+        //System.out.println("begin logger");
     }
 
     @After("execution(* com.starfish.manager..*(..))")
     public void afterLogger(){
-        System.out.println("after logger");
+        //System.out.println("after logger");
     }
 
 }

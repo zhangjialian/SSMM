@@ -87,34 +87,46 @@
                 <!--<scope>test</scope>-->
             </dependency>
 
+            <!-- 需要排除commons-logging， 因为spring默认会使用它作为日志框架 -->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
                 <version>${spring-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
-
             <!-- 平时处理json用到的jar包 -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson-version}</version>
             </dependency>
-
             <!-- log4j日志 -->
+
+            <!-- 转为使用slf4j作为日志框架 -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>1.5.8</version>
+            </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>${slf4-log-version}</version>
+                <version>1.5.8</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
-                <version>${slf4-log-version}</version>
+                <version>1.5.8</version>
             </dependency>
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
-                <version>${log4j-version}</version>
+                <version>1.2.14</version>
             </dependency>
 
             <!-- Excel相关 -->
@@ -173,6 +185,19 @@
                 <artifactId>c3p0</artifactId>
                 <version>${c3p0-version}</version>
                 <type>jar</type>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/javax.persistence/persistence-api -->
+            <dependency>
+                <groupId>javax.persistence</groupId>
+                <artifactId>persistence-api</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>1.7.0</version>
             </dependency>
 
             <!-- servlet -->
@@ -326,6 +351,12 @@
                 <groupId>com.alibaba.rocketmq</groupId>
                 <artifactId>rocketmq-client</artifactId>
                 <version>3.2.6</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.18</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,7 +1,7 @@
 package com.starfish.monitor.interceptor;
 
 import com.alibaba.fastjson.JSON;
-import com.starfish.common.user.UserBO;
+import com.starfish.bo.UserBO;
 import com.starfish.common.systemEnum.PageURLEnum;
 import com.starfish.common.systemEnum.SessionEnum;
 import org.slf4j.Logger;

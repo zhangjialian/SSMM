@@ -1,8 +1,8 @@
 package com.starfish.controller;
 
-import com.starfish.common.user.UserBO;
+import com.starfish.bo.UserBO;
 import com.starfish.common.exception.ErrorCodeException;
-import com.starfish.common.response.SuccessResponse;
+import com.starfish.common.response.BaseResponse;
 import com.starfish.common.systemEnum.ErrorCodeEnum;
 import com.starfish.common.systemEnum.PageURLEnum;
 import com.starfish.common.systemEnum.SessionEnum;
@@ -55,7 +55,7 @@ public class LoginController extends BaseController{
      */
     @RequestMapping(value = "/submitLogin", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
-    public SuccessResponse<Object> submitLogin(ModelMap map, HttpServletRequest request, HttpServletResponse response) throws Exception{
+    public BaseResponse<Object> submitLogin(ModelMap map, HttpServletRequest request, HttpServletResponse response) throws Exception{
         HttpSession session = request.getSession();
         session.setAttribute(SessionEnum.LOGIN_USER.getCode(), null);
 
@@ -88,7 +88,7 @@ public class LoginController extends BaseController{
      */
     @RequestMapping(value = "/logout", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
-    public SuccessResponse<Object> logout(ModelMap map, HttpServletRequest request, HttpServletResponse response) throws Exception{
+    public BaseResponse<Object> logout(ModelMap map, HttpServletRequest request, HttpServletResponse response) throws Exception{
         HttpSession session = request.getSession();
         session.setAttribute(SessionEnum.LOGIN_USER.getCode(), null);
         response.sendRedirect(PageURLEnum.LOGIN.getUrl());

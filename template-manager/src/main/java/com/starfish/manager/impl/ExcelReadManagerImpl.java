@@ -2,8 +2,8 @@ package com.starfish.manager.impl;
 
 import com.starfish.common.exception.ErrorCodeException;
 import com.starfish.common.systemEnum.ErrorCodeEnum;
-import com.starfish.common.user.UserBO;
-import com.starfish.common.util.DateUtils;
+import com.starfish.bo.UserBO;
+import com.starfish.utils.DateUtils;
 import com.starfish.manager.ExcelReadManager;
 import org.apache.poi.ss.usermodel.*;
 import org.slf4j.Logger;
@@ -18,7 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by zjf on 2017/11/15.
+ *
+ * @author zjf
+ * @date 2017/11/15
  */
 @Service
 public class ExcelReadManagerImpl implements ExcelReadManager {
@@ -70,8 +72,8 @@ public class ExcelReadManagerImpl implements ExcelReadManager {
             userBO.setName(name);
             userBO.setUsername(username);
             userBO.setEmail(email);
-            userBO.setRowNo(i);
-            userBO.setValid(true);
+            /*userBO.setRowNo(i);
+            userBO.setValid(true);*/
             userBOList.add(userBO);
         }
         return userBOList;
