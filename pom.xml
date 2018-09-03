@@ -358,6 +358,14 @@
                 <artifactId>lombok</artifactId>
                 <version>1.16.18</version>
             </dependency>
+
+            <!-- 百度 AI -->
+            <dependency>
+                <groupId>com.baidu.aip</groupId>
+                <artifactId>java-sdk</artifactId>
+                <version>4.5.0</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
