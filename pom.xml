@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.starfish</groupId>
+    <groupId>com.cherrycc</groupId>
     <artifactId>template</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>template-common</module>
         <module>template-core</module>
-        <module>template-manager</module>
+        <module>template-service</module>
         <module>template-web</module>
         <module>template-test</module>
         <module>template-monitor</module>
@@ -49,32 +49,32 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.starfish</groupId>
+                <groupId>com.cherrycc</groupId>
                 <artifactId>template-utils</artifactId>
                 <version>${project-version}</version>
             </dependency>
             <dependency>
-                <groupId>com.starfish</groupId>
+                <groupId>com.cherrycc</groupId>
                 <artifactId>template-common</artifactId>
                 <version>${project-version}</version>
             </dependency>
             <dependency>
-                <groupId>com.starfish</groupId>
+                <groupId>com.cherrycc</groupId>
                 <artifactId>template-core</artifactId>
                 <version>${project-version}</version>
             </dependency>
             <dependency>
-                <groupId>com.starfish</groupId>
-                <artifactId>template-manager</artifactId>
+                <groupId>com.cherrycc</groupId>
+                <artifactId>template-service</artifactId>
                 <version>${project-version}</version>
             </dependency>
             <dependency>
-                <groupId>com.starfish</groupId>
+                <groupId>com.cherrycc</groupId>
                 <artifactId>template-monitor</artifactId>
                 <version>${project-version}</version>
             </dependency>
             <dependency>
-                <groupId>com.starfish</groupId>
+                <groupId>com.cherrycc</groupId>
                 <artifactId>template-web</artifactId>
                 <version>${project-version}</version>
             </dependency>

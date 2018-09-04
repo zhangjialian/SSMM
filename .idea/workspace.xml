@@ -9,73 +9,136 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0944ab7c-a88f-408b-a71d-284dca3c12d4" name="Default" comment="修改模块名称、项目名称、maven依赖方式">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list id="dace2bbb-752c-4b73-9f3f-7279e973fcb6" name="unCommitList" comment="unCommitList">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/main/main5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/main5.iml" afterDir="false" />
+    </list>
+    <list default="true" id="0944ab7c-a88f-408b-a71d-284dca3c12d4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baidu_aip_java_sdk_4_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-service/template-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/template_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/template_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/MapList.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/MapList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/Pager.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/Pager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/excel/RowErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/excel/RowErrorInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/exception/ErrorCodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/exception/ErrorCodeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/response/BaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/response/BaseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/response/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/response/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/response/ResponseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/response/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/response/SuccessResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/systemEnum/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/systemEnum/ErrorCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/systemEnum/PageURLEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/systemEnum/PageURLEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/systemEnum/SessionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/systemEnum/SessionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/user/UserBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/user/UserBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/user/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/user/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/user/UserQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/user/UserQO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/user/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/user/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/util/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/util/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/zjl/common/util/TradeCenterExcelHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/util/TradeCenterExcelHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/Pager.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/Pager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/annotation/UpdateOptimisticLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/annotation/UpdateOptimisticLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/exception/ErrorCodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/exception/ErrorCodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/query/UserQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/query/UserQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/response/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/response/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/systemEnum/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/systemEnum/ErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/systemEnum/MyTestEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/systemEnum/MyTestEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/systemEnum/PageURLEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/systemEnum/PageURLEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/systemEnum/SessionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/systemEnum/SessionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/vo/CaiNiaoVirtualNoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/vo/CaiNiaoVirtualNoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/vo/UserVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-common/src/main/resources/spring-common-bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/src/main/resources/spring-common-bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/zjl/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-common/template-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template-common/template-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/bo/UserBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/bo/UserBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/generator/GenerateAllDDLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/generator/GenerateAllDDLUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/generator/JPAHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/generator/JPAHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/generator/ModelColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/generator/ModelColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/generator/PropertyHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/generator/PropertyHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/src/main/java/com/starfish/model/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/model/UserDO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-core/src/main/resources/mapper/user-sql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/resources/mapper/user-sql.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-core/src/main/resources/spring-mybaits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/src/main/resources/spring-mybaits.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/ExcelReadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/ExcelReadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/ExcelWriteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/ExcelWriteManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/TestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/TestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/aspect/InsertAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/aspect/InsertAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/impl/ExcelReadManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/impl/ExcelReadManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/impl/ExcelWriteManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/impl/ExcelWriteManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/impl/TestManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/impl/TestManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/impl/UserManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/impl/UserManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/zjl/manager/task/ThreadPoolExecutorHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/task/ThreadPoolExecutorHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/dubbo/spring-zjl-client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/resources/dubbo/spring-zjl-client.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/redis/redis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/resources/redis/redis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/spring-manager-bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/resources/spring-manager-bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/task/task-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-manager/src/main/resources/task/task-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-monitor/src/main/java/com/zjl/monitor/interceptor/AdminInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitor/src/main/java/com/starfish/monitor/interceptor/AdminInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-service/src/main/java/com/zjl/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/src/main/java/com/starfish/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-service/src/main/java/com/zjl/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/src/main/java/com/starfish/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-service/src/main/resources/dubbo/spring-zjl-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/src/main/resources/dubbo/spring-zjl-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-service/src/main/resources/spring-service-bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/src/main/resources/spring-service-bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-core/template-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template-core/template-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/BaiduAiManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/ExcelReadManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/ExcelWriteManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/TestManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/BaiduAiManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/ExcelReadManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/ExcelWriteManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/TestManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/UserManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/task/ThreadPoolExecutorHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/dubbo/spring-zjl-client.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/dubbo/spring-zjl-client.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/redis/redis-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/redis/redis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/spring-manager-bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/src/main/resources/task/task-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-manager/template-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitor/src/main/java/com/starfish/monitor/aspect/LoggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/aspect/LoggerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitor/src/main/java/com/starfish/monitor/aspect/UpdateOptimisticLockAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/aspect/UpdateOptimisticLockAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitor/src/main/java/com/starfish/monitor/interceptor/AdminInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/interceptor/AdminInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitor/template-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitor/template-monitor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0107.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0116.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0116.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0117.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0117.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0121.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0127.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0127.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0208.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0208.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0607.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0607.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/MyTest0611.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/MyTest0611.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/StartDubbo.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/StartDubbo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-test/src/main/java/com/zjl/test/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/main/java/com/starfish/test/UserManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/BaiduAiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaiduAiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0107.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0116.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0117.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0121.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0127.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0208.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0607.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0611.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0612.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0614.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0718.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0723.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0801.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest0808Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/MyTest20180820.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/Mytest0814.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/Mytest0824.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/StartDubbo.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/StartDubbo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/TemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-test/src/test/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/src/test/resources/applicationContext-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-test/template-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template-test/template-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/zjl/aspect/SystemLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/aspect/SystemLogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/zjl/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/zjl/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/zjl/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/zjl/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/zjl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-utils/src/main/java/com/cherrycc/template/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/MapList.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-utils/src/main/java/com/cherrycc/template/utils/MapList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/MockTestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-utils/src/main/java/com/cherrycc/template/utils/MockTestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/TradeCenterExcelHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-utils/src/main/java/com/cherrycc/template/utils/TradeCenterExcelHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-utils/template-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template-utils/template-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/aspect/SystemLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/aspect/SystemLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-web/src/main/resources/servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/resources/servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-web/src/main/webapp/WEB-INF/view/jsp/login/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/webapp/WEB-INF/view/jsp/login/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-web/template-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template-web/template-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/template.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ssm-maven-test/target/" />
     <ignored path="$PROJECT_DIR$/ssm-maven-core/target/" />
@@ -92,6 +155,7 @@
     <ignored path="$PROJECT_DIR$/template-core/target/" />
     <ignored path="$PROJECT_DIR$/template-test/target/" />
     <ignored path="$PROJECT_DIR$/template-manager/target/" />
+    <ignored path="$PROJECT_DIR$/template-utils/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,31 +166,62 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/template$Mytest0814_test2.ic" NAME="Mytest0814.test2 Coverage Results" MODIFIED="1534753901746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.starfish.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="BaiduAiTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaiduAiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="305" column="12" selection-start-line="305" selection-start-column="12" selection-end-line="309" selection-end-column="25" />
+            <state relative-caret-position="239">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-test/pom.xml">
+      <file leaf-file-name="AdminInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/interceptor/AdminInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="260">
+              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/BaseController.java">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="182">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-zjl-client.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template-service/src/main/resources/dubbo/spring-zjl-client.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -137,43 +232,49 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Aspect" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>redis.host</find>
+      <find>ssm</find>
+      <find>url</find>
+      <find>logistics_interface</find>
+      <find>logistic_provider_id</find>
+      <find>formparams</find>
+      <find>CNSMS_VIRTUAL_NO_AXB_MAIL</find>
+      <find>json</find>
+      <find>sop</find>
+      <find>aop</find>
+      <find>LoggerAspect</find>
+      <find>template-utils</find>
+      <find>utils</find>
+      <find>template-monitor</find>
+      <find>template-web</find>
+      <find>springframework</find>
+      <find>UpdateOptimisticLock</find>
+      <find>LocationAwareLogger</find>
+      <find>jdk</find>
+      <find>slf</find>
+      <find>NotyetSupportedException</find>
+      <find>entrySet</find>
       <find>spring</find>
-      <find>isTrue</find>
-      <find>redis.maxActive</find>
-      <find />
-      <find>redis.maxWaitMillis</find>
-      <find>emplate</find>
-      <find>Assert</find>
-      <find>insertUser</find>
-      <find>aspectjweaver</find>
-      <find>spring-aop-version</find>
-      <find>springsecurity</find>
-      <find>s</find>
-      <find>4.0.9</find>
-      <find>org/springframework/cglib/transform/impl</find>
-      <find>MemorySafeUndeclaredThrowableStrategy</find>
-      <find>4.1</find>
-      <find>security</find>
-      <find>DEBUG</find>
-      <find>version</find>
-      <find>junit-version</find>
-      <find>servlet-version</find>
-      <find>project-version</find>
-      <find>ssm-maven-monitor</find>
-      <find>junit</find>
-      <find>groupId</find>
-      <find>&lt;groupId&gt;com</find>
-      <find>common</find>
-      <find>manager</find>
-      <find>ssm-maven</find>
+      <find>http://www.springframework.org/schema/beans/spring-beans-4.3.xsd</find>
+      <find>log4j.properties</find>
+      <find>getUserById</find>
+      <find>mana</find>
+      <find>star</find>
+      <find>poi</find>
+      <find>com.starfish</find>
+      <find>starfish</find>
     </findStrings>
+    <replaceStrings>
+      <replace>formParams</replace>
+      <replace>RuntimeException</replace>
+      <replace>com.cherrycc.template</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/ssm-maven-core/src/main/resources/mapper</dir>
       <dir>$PROJECT_DIR$</dir>
@@ -186,57 +287,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/resources/spring-manager-bean.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0121.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/util/DateUtils.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/resources/task/task-config.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/task/ThreadPoolExecutorHandle.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserQO.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserVO.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserBO.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserDO.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-core/src/main/java/com/zjl/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-core/src/main/resources/mapper/user-sql.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/resources/servlet.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-monitor/src/main/java/com/zjl/interceptor/AdminInterceptor.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/aop/SystemLogAspect.java" />
-        <option value="$USER_HOME$/Desktop/MyTest0208.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/ssm-maven-monitor/src/main/java/com/zjl/Aspect/SystemLogAspect.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-monitor/src/main/java/com/zjl/monitor/Aspect/SystemLogAspect.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/aop/SystemLogAspect.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/aspect/SystemLogAspect.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/aspect/UserManagerAspect.aj" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/aspect/UserManagerAspect.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/TestManager.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/impl/TestManagerImpl.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0208.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/src/main/resources/applicationContext-test.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/aspect/InsertAspect.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/UserManager.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/impl/UserManagerImpl.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/BaseTest.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0127.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0607.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0611.java" />
-        <option value="$PROJECT_DIR$/ssm-maven-common/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-core/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-monitor/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-service/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-web/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm-maven-test/pom.xml" />
-        <option value="$PROJECT_DIR$/template-common/pom.xml" />
-        <option value="$PROJECT_DIR$/template-core/pom.xml" />
+        <option value="$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/template-core/src/main/java/com/starfish/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/GenerateAllDDLUtil.java" />
+        <option value="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/GenerateAllDDLUtils.java" />
+        <option value="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/JPAHelper.java" />
+        <option value="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/generator/ModelColumn.java" />
+        <option value="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/generator/JPAHelper.java" />
+        <option value="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/generator/PropertyHelper.java" />
+        <option value="$PROJECT_DIR$/template-utils/src/main/java/com/starfish/utils/generator/GenerateAllDDLUtils.java" />
+        <option value="$PROJECT_DIR$/template-core/src/main/java/com/starfish/model/UserDO.java" />
+        <option value="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/TemplateTest.java" />
+        <option value="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/Mytest0824.java" />
         <option value="$PROJECT_DIR$/template-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/impl/BaiduAiManagerImpl.java" />
+        <option value="$PROJECT_DIR$/template-manager/src/main/java/com/starfish/manager/BaiduAiManager.java" />
+        <option value="$PROJECT_DIR$/template-test/src/test/java/com/starfish/test/BaiduAiTest.java" />
+        <option value="$PROJECT_DIR$/template-manager/src/main/resources/task/task-config.xml" />
+        <option value="$PROJECT_DIR$/template-manager/src/main/resources/redis/redis-config.xml" />
+        <option value="$PROJECT_DIR$/template-monitor/src/main/java/com/starfish/monitor/interceptor/AdminInterceptor.java" />
+        <option value="$PROJECT_DIR$/template-service/template-service.iml" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/manage/impl/ExcelReadManagerImpl.java" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/manager/impl/BaiduAiManagerImpl.java" />
+        <option value="$PROJECT_DIR$/template-core/pom.xml" />
+        <option value="$PROJECT_DIR$/template-test/pom.xml" />
+        <option value="$PROJECT_DIR$/template-common/pom.xml" />
         <option value="$PROJECT_DIR$/template-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/template-service/pom.xml" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/manager/impl/ExcelReadManagerImpl.java" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/manager/ExcelReadManager.java" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/manager/UserManager.java" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/manager/impl/UserManagerImpl.java" />
         <option value="$PROJECT_DIR$/template-web/pom.xml" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/BaiduAiService.java" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/impl/ExcelWriteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/impl/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/interceptor/AdminInterceptor.java" />
+        <option value="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/aspect/SystemLogAspect.java" />
+        <option value="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/template-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/template-service/src/main/resources/task/task-config.xml" />
+        <option value="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/MyTest20180820.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/template-test/pom.xml" />
+        <option value="$PROJECT_DIR$/template-core/src/main/resources/mapper/user-sql.xml" />
+        <option value="$PROJECT_DIR$/template-test/src/test/resources/applicationContext-test.xml" />
+        <option value="$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/Mytest0814.java" />
+        <option value="$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/template-service/src/main/resources/dubbo/spring-zjl-client.xml" />
       </list>
     </option>
   </component>
@@ -269,32 +370,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="template-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="template-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -303,58 +379,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Abstraction issuesJava</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>Gradle</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>OSGi</id>
-          </State>
-          <State>
-            <id>Probable bugsGradle</id>
-          </State>
-          <State>
-            <id>Security issuesJava</id>
-          </State>
-          <State>
-            <id>Serialization issuesJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SerializableHasSerialVersionUIDField</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -364,9 +390,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,63 +466,34 @@
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="template-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="template-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-monitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="template-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="template-monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
@@ -530,6 +524,61 @@
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="template-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -543,13 +592,91 @@
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="template-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="template-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="template-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -557,19 +684,10 @@
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="template-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
@@ -578,6 +696,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="template" type="b2602c69:ProjectViewProjectNode" />
@@ -586,38 +706,42 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="starfish" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="template" type="b2602c69:ProjectViewProjectNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="starfish" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\template\template-web\src\main\resources" />
+      <recent name="E:\IdeaProjects\template\template-manager\src\main\resources" />
+      <recent name="E:\IdeaProjects\template\template-test\src\main\resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.starfish.utils.generator" />
+      <recent name="com.starfish.utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\template\template-test\src\test\resources" />
+      <recent name="E:\IdeaProjects\template\template-manager\src\main\resources" />
+      <recent name="E:\IdeaProjects\template\template-test\src\main\resources" />
       <recent name="$PROJECT_DIR$/ssm-maven-manager/src/main/resources/task" />
     </key>
   </component>
@@ -633,69 +757,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.template">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="MyTest0607" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjl.test.MyTest0607" />
-      <module name="template-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zjl.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MyTest0208.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="template-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zjl.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.zjl.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zjl.test.MyTest0208" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyTest0611.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="template-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zjl.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.zjl.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zjl.test.MyTest0611" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -714,31 +781,6 @@
       <patterns />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="jetty:run" />
-                <option value="-Djetty.http.port=9999" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/ssm-maven-web" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-    </configuration>
-    <configuration name="ssm-maven" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -926,19 +968,6 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
     </configuration>
-    <list>
-      <item itemvalue="Application.MyTest0607" />
-      <item itemvalue="Maven.ssm-maven" />
-      <item itemvalue="Tomcat Server.template" />
-      <item itemvalue="JUnit.MyTest0208.test" />
-      <item itemvalue="JUnit.MyTest0611.test" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.MyTest0611.test" />
-        <item itemvalue="JUnit.MyTest0208.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -946,6 +975,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0944ab7c-a88f-408b-a71d-284dca3c12d4" name="Default" comment="" />
+      <changelist id="dace2bbb-752c-4b73-9f3f-7279e973fcb6" name="unCommitList" comment="" />
       <created>1515309289397</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -980,7 +1010,35 @@
       <workItem from="1528350979930" duration="57000" />
       <workItem from="1528351056648" duration="854000" />
       <workItem from="1528695750379" duration="3839000" />
-      <workItem from="1528705483934" duration="2598000" />
+      <workItem from="1528705483934" duration="5228000" />
+      <workItem from="1528768382104" duration="2514000" />
+      <workItem from="1528794400021" duration="1140000" />
+      <workItem from="1528877586353" duration="606000" />
+      <workItem from="1528955711555" duration="3022000" />
+      <workItem from="1529477139159" duration="663000" />
+      <workItem from="1529546224911" duration="38000" />
+      <workItem from="1531893274102" duration="648000" />
+      <workItem from="1532065552687" duration="1666000" />
+      <workItem from="1532330723422" duration="3109000" />
+      <workItem from="1532402358520" duration="4970000" />
+      <workItem from="1532482894834" duration="4596000" />
+      <workItem from="1533103420956" duration="3131000" />
+      <workItem from="1533175782448" duration="5488000" />
+      <workItem from="1533694773039" duration="1248000" />
+      <workItem from="1534235480575" duration="5312000" />
+      <workItem from="1534245644209" duration="37000" />
+      <workItem from="1534298767151" duration="8711000" />
+      <workItem from="1534327467828" duration="663000" />
+      <workItem from="1534747226978" duration="8554000" />
+      <workItem from="1534756150461" duration="3906000" />
+      <workItem from="1534817681753" duration="5429000" />
+      <workItem from="1535092746186" duration="5034000" />
+      <workItem from="1535954783513" duration="3083000" />
+      <workItem from="1535969724328" duration="59000" />
+      <workItem from="1536028410045" duration="3399000" />
+      <workItem from="1536040587932" duration="518000" />
+      <workItem from="1536041115773" duration="1617000" />
+      <workItem from="1536042751500" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="修改模块名称、项目名称、maven依赖方式">
       <created>1528707046008</created>
@@ -996,77 +1054,114 @@
       <option name="project" value="LOCAL" />
       <updated>1528707258098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rename package name">
+      <created>1528708156765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528708156765</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改log的输出路径">
+      <created>1528708539361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528708539361</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改">
+      <created>1534239905960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534239905960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增加百度API">
+      <created>1535957884320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535957884321</updated>
+    </task>
+    <task id="LOCAL-00007" summary="解决tomcat启动错误">
+      <created>1536029665970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536029665970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 13m 53s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="Mytest0814_test1 - 2018.08.20 at 17h 23m 54s.xml">
+      <configuration name="Mytest0814.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 15m 17s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_test1 - 2018.08.21 at 10h 39m 05s.xml">
+      <configuration name="UserDaoTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 19m 22s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_test1 - 2018.08.21 at 10h 39m 36s.xml">
+      <configuration name="UserDaoTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 21m 03s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_test1 - 2018.08.21 at 10h 40m 14s.xml">
+      <configuration name="UserDaoTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 21m 28s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="BaiduAiTest_test1 - 2018.09.03 at 14h 23m 31s.xml">
+      <configuration name="BaiduAiTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 22m 57s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="BaiduAiTest_test1 - 2018.09.03 at 14h 26m 39s.xml">
+      <configuration name="BaiduAiTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 25m 04s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="BaiduAiTest_test1 - 2018.09.03 at 14h 29m 58s.xml">
+      <configuration name="BaiduAiTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0208_test - 2018.02.08 at 16h 26m 17s.xml">
-      <configuration name="MyTest0208.test" configurationId="JUnit" />
+    <history-entry file="BaiduAiTest_test2 - 2018.09.03 at 14h 38m 40s.xml">
+      <configuration name="BaiduAiTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0611_test - 2018.06.11 at 15h 32m 03s.xml">
-      <configuration name="MyTest0611.test" configurationId="JUnit" />
+    <history-entry file="BaiduAiTest_test1 - 2018.09.03 at 14h 42m 24s.xml">
+      <configuration name="BaiduAiTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest0611_test - 2018.06.11 at 15h 33m 35s.xml">
-      <configuration name="MyTest0611.test" configurationId="JUnit" />
+    <history-entry file="BaiduAiTest_test2 - 2018.09.03 at 15h 00m 34s.xml">
+      <configuration name="BaiduAiTest.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81299000" />
+    <option name="totallyTimeSpent" value="164090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028612" side_tool="true" weight="0.39957717" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49713877" weight="0.32907802" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.1913646" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.16471216" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" weight="0.312026" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" visible="true" weight="0.4582882" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3266385" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32957748" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32286024" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30119178" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49733475" weight="0.30119178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.271855" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840087" weight="0.32827735" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32907802" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1110,12 +1205,70 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="zhangjialian" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="Zhang Jialian" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="zhangjialian" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改模块名称、项目名称、maven依赖方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改模块名称、项目名称、maven依赖方式" />
+    <MESSAGE value="rename package name" />
+    <MESSAGE value="修改log的输出路径" />
+    <MESSAGE value="修改" />
+    <MESSAGE value="架构修改" />
+    <MESSAGE value="增加百度API" />
+    <MESSAGE value="解决tomcat启动错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决tomcat启动错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1228,141 +1381,443 @@
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/aspect/UpdateOptimisticLockAspect.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/aspect/UpdateOptimisticLockAspect.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/aspect/UpdateOptimisticLockAspect.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/aspect/UpdateOptimisticLockAspect.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/TestManagerImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/TestManagerImpl.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaiduAiTest.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaiduAiTest.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaiduAiTest.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaiduAiTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="94" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/MyTest0208.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/user/UserDO.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/aspect.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/TestManager.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/resources/applicationContext-test.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/resources/servlet.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/aspect/SystemLogAspect.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0208.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/aspect/InsertAspect.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/UserManager.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/impl/UserManagerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-monitor/src/main/java/com/zjl/monitor/interceptor/AdminInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/BaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0127.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-common/src/main/java/com/zjl/common/systemEnum/ErrorCodeEnum.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/BaseController.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0607.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0117.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0611.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-manager/src/main/java/com/zjl/manager/impl/TestManagerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-core/src/main/resources/spring-mybaits.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-core/src/main/java/com/zjl/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-core/src/main/resources/mapper/user-sql.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-core/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-manager/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-monitor/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-service/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-test/src/main/java/com/zjl/test/MyTest0107.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-web/src/main/java/com/zjl/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/ssm-maven-common/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/template-monitor/pom.xml">
+    <entry file="file://$PROJECT_DIR$/template-manager/src/main/java/com/cherrycc/template/manager/impl/UserManagerImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.1.RELEASE/spring-web-4.0.1.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="130">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/template-common/src/main/java/com/cherrycc/template/common/systemEnum/PageURLEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="205">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-common/target/maven-archiver/pom.properties">
+    <entry file="file://$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/bo/UserBO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/compile-common.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/package.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/clean&amp;install.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="305" column="12" selection-start-line="305" selection-start-column="12" selection-end-line="309" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-common/src/main/java/com/starfish/common/excel/RowErrorInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="260">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-monitor/template-monitor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="114" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="156">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/starfish/controller/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/ExcelReadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="441">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/ExcelWriteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/template-service.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/BaiduAiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/impl/BaiduAiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/impl/ExcelReadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/impl/ExcelWriteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-708">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/impl/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/java/com/cherrycc/template/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/aspect/SystemLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-monitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-utils/src/main/java/com/cherrycc/template/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/util/HSSFColor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-utils/src/main/java/com/cherrycc/template/utils/TradeCenterExcelHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/clean&amp;install.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="40" selection-start-line="4" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/resources/task/task-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/MyTest20180820.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/resources/spring-service-bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-core/src/main/resources/spring-mybaits.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/resources/applicationContext-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-core/src/main/resources/spring-core-bean.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-core/src/main/java/com/cherrycc/template/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/Mytest0814.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-core/src/main/resources/mapper/user-sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/StartDubbo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/TemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-test/src/test/java/com/cherrycc/template/test/BaiduAiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-monitor/src/main/java/com/cherrycc/template/monitor/interceptor/AdminInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-web/src/main/java/com/cherrycc/template/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-service/src/main/resources/dubbo/spring-zjl-client.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1420,7 +1875,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ssm-maven-common</last-edited>
+          <last-edited>main</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

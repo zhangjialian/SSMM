@@ -1,4 +1,4 @@
-<%@ page import="com.starfish.common.User" %>
+<%@ page import="com.cherrycc.template.common.vo.UserVO" %>
 <html>
 <body>
 <h2>

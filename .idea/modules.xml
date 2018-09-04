@@ -14,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-common/template-common.iml" filepath="$PROJECT_DIR$/ssm-maven-common/template-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-core/template-core.iml" filepath="$PROJECT_DIR$/template-core/template-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-core/template-core.iml" filepath="$PROJECT_DIR$/ssm-maven-core/template-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/template-manager/template-manager.iml" filepath="$PROJECT_DIR$/template-manager/template-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-manager/template-manager.iml" filepath="$PROJECT_DIR$/ssm-maven-manager/template-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-monitor/template-monitor.iml" filepath="$PROJECT_DIR$/template-monitor/template-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-monitor/template-monitor.iml" filepath="$PROJECT_DIR$/ssm-maven-monitor/template-monitor.iml" />
@@ -22,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-service/template-service.iml" filepath="$PROJECT_DIR$/ssm-maven-service/template-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-test/template-test.iml" filepath="$PROJECT_DIR$/template-test/template-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-test/template-test.iml" filepath="$PROJECT_DIR$/ssm-maven-test/template-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template-utils/template-utils.iml" filepath="$PROJECT_DIR$/template-utils/template-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-web/template-web.iml" filepath="$PROJECT_DIR$/template-web/template-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-web/template-web.iml" filepath="$PROJECT_DIR$/ssm-maven-web/template-web.iml" />
     </modules>
