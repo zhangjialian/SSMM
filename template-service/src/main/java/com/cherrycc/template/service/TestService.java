@@ -1,6 +1,6 @@
-package com.starfish.manager;
+package com.cherrycc.template.service;
 
-public interface TestManager {
+public interface TestService {
 
     /**
      * 测试连续两次新增的情况下，锁的作用范围

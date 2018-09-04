@@ -1,7 +1,7 @@
-package com.starfish.manager.impl;
+package com.cherrycc.template.service.impl;
 
-import com.starfish.utils.TradeCenterExcelHelp;
-import com.starfish.manager.ExcelWriteManager;
+import com.cherrycc.template.service.ExcelWriteService;
+import com.cherrycc.template.utils.TradeCenterExcelHelp;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.Font;
@@ -19,7 +19,7 @@ import java.io.IOException;
  * Created by zjf on 2017/11/15.
  */
 @Service
-public class ExcelWriteManagerImpl implements ExcelWriteManager {
+public class ExcelWriteServiceImpl implements ExcelWriteService {
 
     public final static int DEFAULT_CELL_SIZE = 13;
 

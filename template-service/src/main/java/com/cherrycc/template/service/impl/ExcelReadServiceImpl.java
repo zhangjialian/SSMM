@@ -1,10 +1,10 @@
-package com.starfish.manager.impl;
+package com.cherrycc.template.service.impl;
 
-import com.starfish.common.exception.ErrorCodeException;
-import com.starfish.common.systemEnum.ErrorCodeEnum;
-import com.starfish.bo.UserBO;
-import com.starfish.utils.DateUtils;
-import com.starfish.manager.ExcelReadManager;
+import com.cherrycc.template.bo.UserBO;
+import com.cherrycc.template.common.exception.ErrorCodeException;
+import com.cherrycc.template.common.systemEnum.ErrorCodeEnum;
+import com.cherrycc.template.service.ExcelReadService;
+import com.cherrycc.template.utils.DateUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,9 +23,9 @@ import java.util.List;
  * @date 2017/11/15
  */
 @Service
-public class ExcelReadManagerImpl implements ExcelReadManager {
+public class ExcelReadServiceImpl implements ExcelReadService {
 
-    Logger logger = LoggerFactory.getLogger(ExcelReadManagerImpl.class);
+    Logger logger = LoggerFactory.getLogger(ExcelReadServiceImpl.class);
 
     /**
      * 批量读取上传文件的用户信息

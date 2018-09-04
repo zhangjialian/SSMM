@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+       default-autowire="byName">
+
+    <!-- 引入加载prop -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="ignoreUnresolvablePlaceholders" value="true"/>
+        <property name="locations">
+            <list>
+                <value>classpath:dubbo/spring-zjl-client.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <dubbo:application name="provider" />
+    <dubbo:annotation package="com.cherrycc.template.*" />
+    <!--<dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>-->
+    <dubbo:registry address="${zookeeper.address}"></dubbo:registry>
+    <!-- ruhnn交易中心对外提供的退款订单保存的服务 -->
+    <!--<dubbo:reference id="iProductService" interface="com.ruhnn.designCenter.client.product.IProductService"
+                     retries="0" timeout="10000" />-->
+
+</beans>

@@ -1,4 +1,4 @@
-package com.starfish.manager.task;
+package com.cherrycc.template.service.task;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,13 +1,13 @@
-package com.starfish.manager.impl;
+package com.cherrycc.template.service.impl;
 
-import com.starfish.common.Pager;
-import com.starfish.bo.UserBO;
-import com.starfish.model.UserDO;
-import com.starfish.common.query.UserQuery;
-import com.starfish.common.exception.ErrorCodeException;
-import com.starfish.common.systemEnum.ErrorCodeEnum;
-import com.starfish.dao.UserDAO;
-import com.starfish.manager.UserManager;
+import com.cherrycc.template.bo.UserBO;
+import com.cherrycc.template.common.Pager;
+import com.cherrycc.template.common.exception.ErrorCodeException;
+import com.cherrycc.template.common.query.UserQuery;
+import com.cherrycc.template.common.systemEnum.ErrorCodeEnum;
+import com.cherrycc.template.dao.UserDAO;
+import com.cherrycc.template.service.UserService;
+import com.cherrycc.template.model.UserDO;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -21,7 +21,7 @@ import java.util.Map;
  */
 
 @Service
-public class UserManagerImpl implements UserManager {
+public class UserServiceImpl implements UserService {
 
     @Resource
     private UserDAO userDAO;

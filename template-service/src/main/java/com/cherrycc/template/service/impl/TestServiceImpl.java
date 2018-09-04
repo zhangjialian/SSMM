@@ -1,15 +1,15 @@
-package com.starfish.manager.impl;
+package com.cherrycc.template.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.starfish.bo.UserBO;
-import com.starfish.dao.UserDAO;
-import com.starfish.manager.TestManager;
+import com.cherrycc.template.bo.UserBO;
+import com.cherrycc.template.dao.UserDAO;
+import com.cherrycc.template.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-public class TestManagerImpl implements TestManager {
+public class TestServiceImpl implements TestService {
 
     @Autowired
     private UserDAO userDAO;

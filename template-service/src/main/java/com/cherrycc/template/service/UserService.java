@@ -1,16 +1,16 @@
-package com.starfish.manager;
+package com.cherrycc.template.service;
 
-import com.starfish.common.Pager;
-import com.starfish.bo.UserBO;
-import com.starfish.model.UserDO;
-import com.starfish.common.query.UserQuery;
+import com.cherrycc.template.bo.UserBO;
+import com.cherrycc.template.common.Pager;
+import com.cherrycc.template.common.query.UserQuery;
+import com.cherrycc.template.model.UserDO;
 
 import java.util.List;
 
 /**
  * Created by zhangjialian on 2017/11/9.
  */
-public interface UserManager {
+public interface UserService {
 
     /**
      * 获取用户列表
