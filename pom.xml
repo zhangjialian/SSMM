@@ -11,13 +11,14 @@
     <modules>
         <module>template-common</module>
         <module>template-core</module>
+        <module>template-manager</module>
         <module>template-service</module>
+        <module>template-dubbo-service</module>
+        <module>template-dubbo-client</module>
         <module>template-web</module>
         <module>template-test</module>
         <module>template-monitor</module>
         <module>template-utils</module>
-        <module>template-dubbo-service</module>
-        <module>template-dubbo-client</module>
     </modules>
 
     <properties>
@@ -63,6 +64,11 @@
             <dependency>
                 <groupId>com.cherrycc</groupId>
                 <artifactId>template-core</artifactId>
+                <version>${project-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cherrycc</groupId>
+                <artifactId>template-manager</artifactId>
                 <version>${project-version}</version>
             </dependency>
             <dependency>

@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.cherrycc</groupId>
-            <artifactId>template-core</artifactId>
+            <artifactId>template-manager</artifactId>
         </dependency>
 
         <!-- spring核心包 -->
