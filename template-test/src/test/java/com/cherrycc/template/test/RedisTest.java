@@ -1,14 +1,16 @@
 package com.cherrycc.template.test;
 
+import com.alibaba.fastjson.JSON;
+import com.cherrycc.template.bo.UserBO;
+import com.cherrycc.template.utils.MockTestUtils;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
-
-import javax.annotation.Resource;
 
 public class RedisTest extends BaseTest {
 
-    @Resource
-    private RedisTemplate<String, Object> redisTemplate;
+    @Autowired
+    private RedisTemplate<String, String> redisTemplate;
 
 
     @Test
@@ -18,14 +20,15 @@ public class RedisTest extends BaseTest {
 
     @Test
     public void insert(){
-        redisTemplate.opsForValue().set("username", "zhangjialian");
+        UserBO userBO = MockTestUtils.getJavaBean(UserBO.class);
+        redisTemplate.opsForValue().set("loginUser", JSON.toJSONString(userBO));
         System.out.println("insert success");
     }
 
     @Test
     public void get(){
-        Object obj = redisTemplate.opsForValue().get("username");
-        System.out.println(obj);
+        String userJSON = (String) redisTemplate.opsForValue().get("username");
+        System.out.println(userJSON);
     }
 
     @Test

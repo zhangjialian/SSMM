@@ -27,7 +27,7 @@
         <project-version>1.0-SNAPSHOT</project-version>
         <java.version>1.8</java.version>
         <servlet-version>2.5</servlet-version>
-        <spring-version>4.0.1.RELEASE</spring-version>
+        <spring-version>4.2.6.RELEASE</spring-version>
         <!--<spring-version>3.1.2.RELEASE</spring-version>-->
         <spring-test-version>4.0.1.RELEASE</spring-test-version>
         <spring-aop-version>1.7.4</spring-aop-version>
@@ -44,9 +44,9 @@
         <dubbo-version>2.5.3</dubbo-version>
         <zookeeper-version>3.3.1</zookeeper-version>
         <zkclient-version>0.3</zkclient-version>
-        <redis-version>2.6.2</redis-version>
+        <redis-version>2.9.0</redis-version>
         <!--<redis-version>2.1.0</redis-version>-->
-        <spring-redis-data-version>1.6.0.RELEASE</spring-redis-data-version>
+        <spring-redis-data-version>1.7.2.RELEASE</spring-redis-data-version>
     </properties>
 
     <dependencyManagement>
