@@ -12,17 +12,21 @@
     <artifactId>template-test</artifactId>
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>com.cherrycc</groupId>
             <artifactId>template-service</artifactId>
         </dependency>
         <dependency>
             <groupId>com.cherrycc</groupId>
+            <artifactId>template-dubbo-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.cherrycc</groupId>
             <artifactId>template-monitor</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
 
         <!-- servlet -->

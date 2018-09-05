@@ -17,6 +17,6 @@
     <import resource="classpath:task/task-config.xml" />
 
     <!-- Dubbo相关 -->
-    <!--<import resource="classpath:dubbo/spring-cherry-client.xml" />-->
+    <import resource="classpath:dubbo/spring-template-dubbo-consumer.xml" />
     
 </beans>

@@ -18,6 +18,10 @@
         </dependency>
         <dependency>
             <groupId>com.cherrycc</groupId>
+            <artifactId>template-dubbo-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.cherrycc</groupId>
             <artifactId>template-monitor</artifactId>
         </dependency>
 

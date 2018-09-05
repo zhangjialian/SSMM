@@ -25,4 +25,5 @@
 
     <import resource="classpath:spring-service-bean.xml" />
     <import resource="classpath:spring-mybaits.xml" />
+    <import resource="classpath:dubbo/spring-template-dubbo-service.xml" />
 </beans>

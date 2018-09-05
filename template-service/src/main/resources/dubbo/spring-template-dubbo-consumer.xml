@@ -12,17 +12,16 @@
         <property name="ignoreUnresolvablePlaceholders" value="true"/>
         <property name="locations">
             <list>
-                <value>classpath:dubbo/spring-zjl-client.properties</value>
+                <value>classpath:dubbo/spring-template-dubbo.properties</value>
             </list>
         </property>
     </bean>
 
-    <dubbo:application name="provider" />
+    <dubbo:application name="template-consumer" owner="programmer" organization="dubbox"/>
     <dubbo:annotation package="com.cherrycc.template.*" />
-    <!--<dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>-->
+    <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
     <dubbo:registry address="${zookeeper.address}"></dubbo:registry>
-    <!-- ruhnn交易中心对外提供的退款订单保存的服务 -->
-    <!--<dubbo:reference id="iProductService" interface="com.ruhnn.designCenter.client.product.IProductService"
-                     retries="0" timeout="10000" />-->
+
+
 
 </beans>
