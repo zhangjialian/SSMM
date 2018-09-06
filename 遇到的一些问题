@@ -1,0 +1,5 @@
+1. 连接远程redis服务器，经常报拒绝连接错误，spring bean初始化能正常通过，但使用是报错
+参见https://blog.csdn.net/Agly_Clarlie/article/details/52251746
+
+2. kafka搭建参照文档
+https://www.cnblogs.com/wangb0402/p/6187796.html

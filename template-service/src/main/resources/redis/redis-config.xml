@@ -4,19 +4,19 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
         http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
     <!-- 加载*.properties属性文件 -->
     <context:property-placeholder ignore-unresolvable="true"
                                   location="classpath:redis/redis-config.properties" />
 
     <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
-        <property name="maxIdle" value="5" />
-        <property name="minIdle" value="1" />
-        <property name="maxTotal" value="1000" />
-        <property name="maxWaitMillis" value="2000" />
+        <property name="maxIdle" value="${redis.maxIdle}" />
+        <property name="minIdle" value="${redis.minIdle}" />
+        <property name="maxTotal" value="${redis.maxmaxTotal}" />
+        <property name="maxWaitMillis" value="${redis.maxWait}" />
         <!-- 获得一个jedis实例的时候是否通过 ping() 检查连接可用性 -->
-        <property name="testOnBorrow" value="true" />
+        <property name="testOnBorrow" value="${redis.testOnBorrow}" />
         <!-- return 一个jedis实例给pool时，是否通过 ping() 检查连接可用性 -->
         <property name="testOnReturn" value="true" />
         <!-- idle状态监测用异步线程evict进行检查 -->
@@ -28,7 +28,7 @@
     </bean>
 
     <bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
-          p:hostName="127.0.0.1" p:port="6379" p:poolConfig-ref="poolConfig" />
+          p:hostName="${redis.host}" p:port="${redis.port}" p:poolConfig-ref="poolConfig" />
     <bean id="stringSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
 
     <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">

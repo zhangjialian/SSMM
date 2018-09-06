@@ -7,7 +7,7 @@
 
     <!--
         springMVC web.xml配置顺序:
-            context -> listener -> filter -> servlet
+            context -> mq -> filter -> servlet
     -->
     <display-name>Archetype Created Web Application</display-name>
 

@@ -14,6 +14,9 @@
 
     <import resource="classpath:redis/redis-config.xml" />
 
+    <import resource="classpath:kafka/spring-kafka-consumer.xml" />
+    <import resource="classpath:kafka/spring-kafka-producer.xml" />
+
     <import resource="classpath:task/task-config.xml" />
 
     <!-- Dubbo相关 -->

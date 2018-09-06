@@ -28,7 +28,6 @@
         <java.version>1.8</java.version>
         <servlet-version>2.5</servlet-version>
         <spring-version>4.2.6.RELEASE</spring-version>
-        <!--<spring-version>3.1.2.RELEASE</spring-version>-->
         <spring-test-version>4.0.1.RELEASE</spring-test-version>
         <spring-aop-version>1.7.4</spring-aop-version>
         <jackson-version>2.5.2</jackson-version>
@@ -295,6 +294,33 @@
                 <artifactId>jedis</artifactId>
                 <version>${redis-version}</version>
             </dependency>
+
+            <!-- kafka:begin -->
+            <!--  Kafka和spring集成的支持类库，spring和kafka通信监听 -->
+            <dependency>
+                <groupId>org.springframework.integration</groupId>
+                <artifactId>spring-integration-kafka</artifactId>
+                <version>1.3.0.RELEASE</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <!-- kafka发送消息以及接受消息使用的类库 -->
+            <dependency>
+                 <groupId>org.apache.kafka</groupId>
+                 <artifactId>kafka-clients</artifactId>
+                 <version>0.10.1.0</version>
+            </dependency>
+            <!-- kafka自带监听器，依赖于spring，所以需要和pring-integration-kafka结合使用 -->
+            <dependency>
+                 <groupId>org.springframework.kafka</groupId>
+                 <artifactId>spring-kafka</artifactId>
+                 <version>1.1.0.RELEASE</version>
+            </dependency>
+            <!-- kafka:end -->
 
             <!-- dubbo -->
             <dependency>
