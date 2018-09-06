@@ -2,6 +2,7 @@ package com.cherrycc.template.test;
 
 import com.cherrycc.template.service.mq.KafkaProducerServer;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Map;
 
@@ -11,9 +12,11 @@ import java.util.Map;
  */
 public class KafkaTest extends BaseTest {
 
+    @Autowired
+    private KafkaProducerServer kafkaProducer;
+
     @Test
     public void test(){
-        KafkaProducerServer kafkaProducer = new KafkaProducerServer();
         String topic = "orderTopic";
         String value = "test";
         String ifPartition = "0";
