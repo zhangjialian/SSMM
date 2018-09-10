@@ -1,6 +1,5 @@
 package com.cherrycc.template.service.mq;
 
-import com.alibaba.fastjson.JSON;
 import com.cherrycc.template.common.mq.KafkaMesConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -26,24 +25,33 @@ public class KafkaProducerServer {
     /**
      * kafka发送消息模板
      * @param topic 主题
-     * @param value    messageValue
-     * @param ifPartition 是否使用分区 0是\1不是
      * @param partitionNum 分区数 如果是否使用分区为0,分区数必须大于0
-     * @param role 角色:bbc app erp...
+     * @param key    发送消息的键
+     * @param value    messageValue
+     * @return
      */
-    public Map<String,Object> sndMesForTemplate(String topic, Object value, String ifPartition,
-                                                Integer partitionNum, String role){
-        String key = role+"-"+value.hashCode();
-        String valueString = JSON.toJSONString(value);
-        if("0".equals(ifPartition)){
+    public Map<String,Object> sndMesForTemplate(String topic, Integer partitionNum, String key, String value){
+        if(partitionNum != null && partitionNum != 0){
             //表示使用分区
             int partitionIndex = getPartitionIndex(key, partitionNum);
-            ListenableFuture<SendResult<String, String>> result = kafkaTemplate.send(topic, partitionIndex, key, valueString);
+            ListenableFuture<SendResult<String, String>> result
+                    = kafkaTemplate.send(topic, partitionIndex, key, value);
             return checkProRecord(result);
         }else{
-            ListenableFuture<SendResult<String, String>> result = kafkaTemplate.send(topic, key, valueString);
+            ListenableFuture<SendResult<String, String>> result = kafkaTemplate.send(topic, key, value);
             return checkProRecord(result);
         }
+    }
+
+    /**
+     * kafka发送消息模板
+     * @param topic 主题
+     * @param key 发送的键
+     * @param value    messageValue
+     * @return
+     */
+    public Map<String,Object> sndMesForTemplate(String topic, String key, String value){
+        return this.sndMesForTemplate(topic, 0, key, value);
     }
 
     /**

@@ -1,5 +1,7 @@
 1. 连接远程redis服务器，经常报拒绝连接错误，spring bean初始化能正常通过，但使用是报错
-参见https://blog.csdn.net/Agly_Clarlie/article/details/52251746
+启动redis服务需要指定对应的配置文件，参见https://blog.csdn.net/Agly_Clarlie/article/details/52251746
 
-2. kafka搭建参照文档
-https://www.cnblogs.com/wangb0402/p/6187796.html
+2. kafka相关基础知识参照文档
+搭建：https://www.cnblogs.com/luotianshuai/p/5206662.html
+kafka与spring集成:无法远程访问服务器上的Kafka
+参照：https://blog.csdn.net/xiaofanren1111/article/details/80944005
