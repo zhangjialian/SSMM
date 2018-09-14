@@ -2,6 +2,11 @@
 启动redis服务需要指定对应的配置文件，参见https://blog.csdn.net/Agly_Clarlie/article/details/52251746
 
 2. kafka相关基础知识参照文档
-搭建：https://www.cnblogs.com/luotianshuai/p/5206662.html
+    搭建：https://www.cnblogs.com/luotianshuai/p/5206662.html
 kafka与spring集成:无法远程访问服务器上的Kafka
-参照：https://blog.csdn.net/xiaofanren1111/article/details/80944005
+    参照：https://blog.csdn.net/xiaofanren1111/article/details/80944005
+kafka命令行消费消息
+    ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic orderTopic --from-beginning
+kafka的group.id问题
+    消费者不会消费相同group.id的消息
+    同一个group.id的消费者会不重复消费topic消息

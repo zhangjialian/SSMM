@@ -1,6 +1,9 @@
 package com.cherrycc.template.test;
 
+import com.alibaba.fastjson.JSON;
+import com.cherrycc.template.model.UserDO;
 import com.cherrycc.template.service.mq.KafkaProducerServer;
+import com.cherrycc.template.utils.MockTestUtils;
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -25,7 +28,7 @@ public class KafkaTest extends BaseTest {
         String topic = "orderTopic";
         Integer partitionNum = 1;
         String key = "test:10001";
-        String value = "test";
+        String value = JSON.toJSONString(MockTestUtils.getJavaBean(UserDO.class));
         Map<String,Object> res = kafkaProducer.sndMesForTemplate(topic, partitionNum, key, value);
 
         System.out.println("测试结果如下：===============");
@@ -36,7 +39,7 @@ public class KafkaTest extends BaseTest {
         System.out.println("message:"+message);
     }
 
-    @Test
+    //@Test
     public void test5(){
         //消息发送模式：同步或异步
         boolean isAsync = true;
